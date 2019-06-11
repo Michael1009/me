@@ -25,7 +25,7 @@ class Introduction extends Component {
           <Typist.Delay ms={500} />
 
           <div className="activities">
-            <div className="activities_header">Things I Enjoy in Life</div>
+            <div className="activities_header">Things I enjoy in life...</div>
             <Typist.Delay ms={200} />
             <div>
               <FontAwesomeIcon icon="laptop-code" /> Coding

@@ -20,7 +20,7 @@
     font-size: 32px;
     height: 90px;
 
-    font-family: 'Roboto Slab', serif;
+    font-family: "Quicksand", Arial, sans-serif;
 
     width: 40%;
     top: 30%;
@@ -54,29 +54,13 @@
     transform: translate(-50%, -50%);
     z-index: 2;
 
-    padding: 10px;
+    padding-top: 20px;
+    padding-left: 24px;
 }
 
 .activities_header {
-    text-decoration: underline;
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Roboto Slab', serif;
-}
+    font-family: "Quicksand", Arial, sans-serif;
 
-.test {
-    display: block;
-  width: 40px;
-  height: 40px;
-  background: #2c98f0;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  text-align: center;
-  -moz-box-shadow: 0 0 0 5px #f2f3f7;
-  -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-  box-shadow: 0 0 0 5px #f2f3f7;
-  line-height: 40px;
-  float: left;
+    text-align: left;
+    font-size: 20px;
 }

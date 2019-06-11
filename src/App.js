@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import TopBar from "./components/topbar";
 import SideNav from "./components/sidebar";
-import Projects from "./components/projects";
 import About from "./components/about";
-import Blog from "./components/blog";
+import Timeline from "./components/timeline";
 import Introduction from "./components/introduction";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -40,6 +38,7 @@ class App extends Component {
         <Introduction></Introduction>
         <SideNav></SideNav>
         <About></About>
+        <Timeline></Timeline>
         
         {/*  */}
 

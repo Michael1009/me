@@ -8,9 +8,15 @@
     font-family: 'Roboto Slab', serif;
 }
 
+.about .text {
+    padding-left: 256px;
+    padding-right: 256px;
+
+}
+
 .about .heading {
     letter-spacing: 5px;
-    color: #a78484;
+    color: #78909c;
     font-size: 10px;
     padding-bottom: 8px;
     padding-top: 70px;
