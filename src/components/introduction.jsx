@@ -12,7 +12,7 @@ class Introduction extends Component {
       <div className="introduction">
         <div className="splash_pic" />
         <Typist
-          avgTypingDelay={80}
+          avgTypingDelay={70}
           cursor={{ show: false, hideWhenDone: true }}
           startDelay={1000}
         >

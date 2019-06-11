@@ -24,7 +24,6 @@ import {
   faLightbulb,
   faUsers
 } from '@fortawesome/free-solid-svg-icons';
-import Zoom from 'react-reveal/Zoom';
 
 
 library.add(fab, faCheckSquare, faCoffee, faEnvelope,
@@ -40,9 +39,7 @@ class App extends Component {
         {/* <TopBar id="topbar"></TopBar> */}
         <Introduction></Introduction>
         <SideNav></SideNav>
-        <Zoom>
-          <About></About>
-        </Zoom>
+        <About></About>
         
         {/*  */}
 
