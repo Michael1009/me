@@ -12,12 +12,12 @@ class About extends Component {
     return (
       <div className="about">
         <div className="text">
-          <Fade>
+          <Fade duration={1500}>
             <div className="heading"> ABOUT ME </div>
             <div className="subheading"> WHO AM I? </div>
           </Fade>
 
-          <Fade>
+          <Fade duration={1500}>
             <div>
               <div className="description">
                 I am currently a Junior at the University of Virginia pursuing a
@@ -48,8 +48,6 @@ class About extends Component {
           </Fade>
         </div>
 
-        <br />
-        <br />
         <br />
         <br />
 
