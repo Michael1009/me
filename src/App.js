@@ -19,14 +19,18 @@ import {
   faPlane,
   faDumbbell,
   faCameraRetro,
-  faImages
+  faImages,
+  faCode,
+  faLightbulb,
+  faUsers
 } from '@fortawesome/free-solid-svg-icons';
 import Zoom from 'react-reveal/Zoom';
 
 
 library.add(fab, faCheckSquare, faCoffee, faEnvelope,
   faHeart, faFileAlt, faLaptopCode, faMountain, faPlane,
-  faDumbbell, faCameraRetro, faImages)
+  faDumbbell, faCameraRetro, faImages, faCode, faLightbulb,
+  faUsers)
 
 class App extends Component {
   render() {
@@ -36,11 +40,11 @@ class App extends Component {
         {/* <TopBar id="topbar"></TopBar> */}
         <Introduction></Introduction>
         <SideNav></SideNav>
-        <About></About>
+        <Zoom>
+          <About></About>
+        </Zoom>
         
-        {/* <Zoom>
-
-        </Zoom> */}
+        {/*  */}
 
         {/* 
           
