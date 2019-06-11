@@ -12,7 +12,7 @@ class Timeline extends Component {
 
         <ul className="cbp_tmtimeline">
           <li>
-            <div className="cbp_tmicon cbp_tmicon-1" />
+            <div className="cbp_tmicon icon-1" />
             <div className="cbp_tmlabel">
               <div className="title">Ricebean black-eyed pea</div>
               <p>Winter purslane...</p>
