@@ -11,7 +11,7 @@ class Introduction extends Component {
     return (
       <div className="introduction">
         <div className="splash_pic" />
-        <Typist
+        {/* <Typist
           avgTypingDelay={70}
           cursor={{ show: false, hideWhenDone: true }}
           startDelay={1000}
@@ -51,7 +51,7 @@ class Introduction extends Component {
               's along the way :)
             </div>
           </div>
-        </Typist>
+        </Typist> */}
       </div>
     );
   }
