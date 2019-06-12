@@ -24,11 +24,16 @@
 
 .links {
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 48px;
+}
+
+.link {
+    padding-bottom: 6px;
 }
 
 .icon {
-    padding-bottom: 8px;
+    padding-bottom: 12px;
+    font-size: 18px;
 }
 
 .icon a {

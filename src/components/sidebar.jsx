@@ -20,19 +20,19 @@ class SideNav extends Component {
           <div className="heading">Michael Chang</div>
 
           <div className="links">
-            <div>
+            <div className="link">
               <a href="">Introduction</a>
             </div>
-            <div>
+            <div className="link">
               <a href="">About</a>
             </div>
-            <div>
+            <div className="link">
               <a href="">Experience</a>
             </div>
-            <div>
+            <div className="link">
               <a href="">Timeline</a>
             </div>
-            <div>
+            <div className="link">
               <a href="">Gallery</a>
             </div>
           </div>
