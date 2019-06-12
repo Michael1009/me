@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 import Fade from "react-reveal/Fade";
+import Pdf from "./resume/Resume_1Page_Michael_Chang.pdf";
 
 class Experience extends Component {
   render() {
@@ -27,9 +28,9 @@ class Experience extends Component {
                 </Card.Text>
                 <Card.Link
                   className="cardlink"
-                  href="https://github.com/Michael1009/"
+                  href="https://github.com/Michael1009/" target="_blank"
                 >
-                  <FontAwesomeIcon icon={["fab", "github"]} />
+                  <FontAwesomeIcon className="icon_blue" icon={["fab", "github"]} />
                 </Card.Link>
               </Card.Body>
             </Card>
@@ -46,8 +47,8 @@ class Experience extends Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Card.Link className="cardlink" href="">
-                  <FontAwesomeIcon icon="file-alt" />
+                <Card.Link className="cardlink" href={Pdf} target="_blank">
+                  <FontAwesomeIcon className="icon_yellow" icon="file-alt" />
                 </Card.Link>
               </Card.Body>
             </Card>
@@ -66,9 +67,9 @@ class Experience extends Component {
                 </Card.Text>
                 <Card.Link
                   className="cardlink"
-                  href="https://linkedin.com/in/mchang2017/"
+                  href="https://linkedin.com/in/mchang2017/" target="_blank"
                 >
-                  <FontAwesomeIcon icon={["fab", "linkedin"]} />
+                  <FontAwesomeIcon className="icon_green" icon={["fab", "linkedin"]} />
                 </Card.Link>
               </Card.Body>
             </Card>

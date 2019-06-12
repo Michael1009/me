@@ -1,5 +1,5 @@
 .experience {
-    width:100%;
+    width: 100%;
     text-align: left;
     height: 300;
     padding-bottom: 32px;
@@ -24,8 +24,31 @@
 
 }
 
-.cardlink {
-    color: black;
+.icon_blue {
+    color: #2196f3;
+    font-size: 18px;
+}
+
+.icon_blue:hover {
+    color: #90caf9;
+}
+
+.icon_yellow {
+    color: #fbc02d;
+    font-size: 18px;
+}
+
+.icon_yellow:hover {
+    color: #fdd835;
+}
+
+.icon_green {
+    color: #00897b;
+    font-size: 18px;
+}
+
+.icon_green:hover {
+    color: #4db6ac;
 }
 
 .card_1 {
@@ -50,4 +73,3 @@
 .text-center {
     width: 28vw !important;
 }
-
