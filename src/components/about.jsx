@@ -3,9 +3,7 @@ import "./css/about.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
-import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
 
 class About extends Component {
   render() {
