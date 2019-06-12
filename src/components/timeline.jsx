@@ -10,7 +10,7 @@ class Timeline extends Component {
         <div className="subheading"> TIMELINE </div>
         <ul class="timeline">
             <li>
-              <div class="timeline-badge"><FontAwesomeIcon icon="lightbulb" /></div>
+              <div class="timeline-badge green"><FontAwesomeIcon icon="lightbulb" /></div>
               <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4 class="timeline-title">Mussum ipsum cacilds</h4>
@@ -22,7 +22,7 @@ class Timeline extends Component {
               </div>
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-badge"><FontAwesomeIcon icon="lightbulb" /></div>
+              <div class="timeline-badge blue"><FontAwesomeIcon icon="lightbulb" /></div>
               <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4 class="timeline-title">Mussum ipsum cacilds</h4>
@@ -33,7 +33,7 @@ class Timeline extends Component {
               </div>
             </li>
             <li>
-              <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+              <div class="timeline-badge orange"><i class="glyphicon glyphicon-credit-card"></i></div>
               <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4 class="timeline-title">Mussum ipsum cacilds</h4>
@@ -44,7 +44,7 @@ class Timeline extends Component {
               </div>
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-badge"><FontAwesomeIcon icon="lightbulb" /></div>
+              <div class="timeline-badge red"><FontAwesomeIcon icon="lightbulb" /></div>
               <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4 class="timeline-title">Mussum ipsum cacilds</h4>
@@ -55,7 +55,7 @@ class Timeline extends Component {
               </div>
             </li>
             <li>
-              <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+              <div class="timeline-badge blue"><i class="glyphicon glyphicon-credit-card"></i></div>
               <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4 class="timeline-title">Mussum ipsum cacilds</h4>
@@ -66,7 +66,7 @@ class Timeline extends Component {
               </div>
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-badge"><FontAwesomeIcon icon="lightbulb" /></div>
+              <div class="timeline-badge green"><FontAwesomeIcon icon="lightbulb" /></div>
               <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4 class="timeline-title">Mussum ipsum cacilds</h4>

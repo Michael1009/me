@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./css/sidebar.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Pdf from './resume/Resume_1Page_Michael_Chang.pdf';
 
 class SideNav extends Component {
     render() {
@@ -10,15 +11,15 @@ class SideNav extends Component {
                     <div className="profilepic"></div>
                     <div className="heading">Michael Chang</div>
                     <div className="contact">
-                        <div className="resume"> <a href=""><FontAwesomeIcon icon="file-alt" /> Resume</a></div>
-                        <div className="email"> <FontAwesomeIcon icon="envelope" /> myc6cp@virginia.edu</div>
+                        <div className="resume"> <a href={Pdf} target="_blank"><FontAwesomeIcon icon="file-alt" /> Resume</a></div>
+                        <div className="email"><a href="mailto:myc6cp@virginia.edu" target="_blank"><FontAwesomeIcon icon="envelope" /> myc6cp@virginia.edu</a></div>
                     </div>
 
                     <div className="links">
-                        <div><a href="" data-nav-section="">Introduction</a></div>
-                        <div><a href="" data-nav-section="">About</a></div>
-                        <div><a href="" data-nav-section="">Experience</a></div>
-                        <div><a href="" data-nav-section="">Projects</a></div>
+                        <div><a href="">Introduction</a></div>
+                        <div><a href="">About</a></div>
+                        <div><a href="">Experience</a></div>
+                        <div><a href="">Projects</a></div>
                     </div>
 
                     <div className="icons">
