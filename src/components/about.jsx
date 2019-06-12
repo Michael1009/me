@@ -76,7 +76,7 @@ class About extends Component {
             </Card>
           </Fade>
 
-          <Fade up delay={500}>
+          <Fade up delay={400}>
             <Card className="text-center" style={{ width: "18rem" }}>
               <Card.Header className="card_2">
                 <FontAwesomeIcon icon="lightbulb" />
@@ -94,7 +94,7 @@ class About extends Component {
             </Card>
           </Fade>
 
-          <Fade up delay={1000}>
+          <Fade up delay={800}>
             <Card className="text-center" style={{ width: "18rem" }}>
               <Card.Header className="card_3">
                 <FontAwesomeIcon icon="users" />

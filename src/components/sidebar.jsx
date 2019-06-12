@@ -19,7 +19,8 @@ class SideNav extends Component {
                         <div><a href="">Introduction</a></div>
                         <div><a href="">About</a></div>
                         <div><a href="">Experience</a></div>
-                        <div><a href="">Projects</a></div>
+                        <div><a href="">Timeline</a></div>
+                        <div><a href="">Gallery</a></div>
                     </div>
 
                     <div className="icons">
