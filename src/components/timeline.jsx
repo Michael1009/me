@@ -9,7 +9,7 @@ class Timeline extends Component {
       <div className="container">
         <div className="heading"> WORK </div>
         <div className="subheading"> TIMELINE </div>
-        <ul class="timeline">
+        <ul className="timeline">
           <Slide left>
             <li>
               <div className="timeline-badge green">

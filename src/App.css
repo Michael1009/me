@@ -1,3 +1,9 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth;
+}
+
+/* css */
+html {
+  scroll-behavior: smooth;
 }
