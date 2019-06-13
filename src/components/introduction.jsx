@@ -52,11 +52,6 @@ class Introduction extends Component {
               src= {pic2}
               alt="Third slide"
             />
-
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           
         </Carousel>
