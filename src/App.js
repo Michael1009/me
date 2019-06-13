@@ -20,7 +20,9 @@ import {
   faImages,
   faCode,
   faLightbulb,
-  faUsers
+  faUsers,
+  faSatellite,
+  faCloud
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Pdf from "./components/resume/Resume_1Page_Michael_Chang.pdf";
@@ -31,7 +33,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 library.add(fab, faCheckSquare, faCoffee, faEnvelope,
   faHeart, faFileAlt, faLaptopCode, faMountain, faPlane,
   faDumbbell, faCameraRetro, faImages, faCode, faLightbulb,
-  faUsers)
+  faUsers, faSatellite, faCloud)
 
 class App extends Component {
 

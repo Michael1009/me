@@ -12,29 +12,19 @@ class Timeline extends Component {
         <ul className="timeline">
           <Slide left>
             <li>
-              <div className="timeline-badge green">
-                <FontAwesomeIcon icon="lightbulb" />
+              <div className="timeline-badge blue">
+                <FontAwesomeIcon icon="code" />
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-                  <p>
-                    <small className="text-muted">
-                      <i className="glyphicon glyphicon-time" /> 11 hours ago
-                      via Twitter
-                    </small>
-                  </p>
+                  <h4 className="timeline-title">Northrop Grumman</h4>
+                  <div className="timeline-subtitle">Software Development Intern</div>
+                  <div className="timeline-date"><small class="text-muted">Summer 2019</small></div>
                 </div>
                 <div className="timeline-body">
                   <p>
-                    Mussum ipsum cacilds, vidis litro abertis. Consetis
-                    adipiscings elitis. Pra lá , depois divoltis porris,
-                    paradis. Paisis, filhis, espiritis santis. Mé faiz elementum
-                    girarzis, nisi eros vermeio, in elementis mé pra quem é
-                    amistosis quis leo. Manduma pindureta quium dia nois paga.
-                    Sapien in monti palavris qui num significa nadis i pareci
-                    latim. Interessantiss quisso pudia ce receita de bolis, mais
-                    bolis eu num gostis.
+                    Developed a full stack web application using <b>React JS</b> and <b>Spring</b> to help a team automate a certain complex process.
+                    Also worked as a mobile application developer to help develop an <b>Android application</b>.
                   </p>
                 </div>
               </div>
@@ -42,23 +32,20 @@ class Timeline extends Component {
           </Slide>
           <Slide right>
             <li className="timeline-inverted">
-              <div className="timeline-badge blue">
-                <FontAwesomeIcon icon="lightbulb" />
+              <div className="timeline-badge green">
+                <FontAwesomeIcon icon="cloud" />
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+                  <h4 className="timeline-title">Plus3 IT</h4>
+                  <div className="timeline-subtitle">Cloud Development Intern</div>
+                  <div className="timeline-date"><small class="text-muted">Winter 2018</small></div>
                 </div>
                 <div className="timeline-body">
                   <p>
-                    Mussum ipsum cacilds, vidis litro abertis. Consetis
-                    adipiscings elitis. Pra lá , depois divoltis porris,
-                    paradis. Paisis, filhis, espiritis santis. Mé faiz elementum
-                    girarzis, nisi eros vermeio, in elementis mé pra quem é
-                    amistosis quis leo. Manduma pindureta quium dia nois paga.
-                    Sapien in monti palavris qui num significa nadis i pareci
-                    latim. Interessantiss quisso pudia ce receita de bolis, mais
-                    bolis eu num gostis.
+                    Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
+                    backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
+                    Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                 </div>
               </div>
@@ -66,47 +53,40 @@ class Timeline extends Component {
           </Slide>
           <Slide left>
             <li>
+              <div className="timeline-badge yellow">
+                <FontAwesomeIcon icon="satellite" />
+              </div>
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4 className="timeline-title">National Geospatial-Intelligence Agency</h4>
+                  <div className="timeline-subtitle">Data Science Intern</div>
+                  <div className="timeline-date"><small class="text-muted">Summer 2018</small></div>
+                </div>
+                <div className="timeline-body">
+                  <p>
+                    Implemented Python scripts for web scraping and data visualization for geospatial data. Worked
+                    primarily with the Panda library for parsing through the data, BeautifulSoup for web scraping, and
+                    Matplotlib and Seaborn for data visualization.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </Slide>
+          <Slide right>
+            <li className="timeline-inverted">
               <div className="timeline-badge orange">
-                <i className="glyphicon glyphicon-credit-card" />
+                <FontAwesomeIcon icon="satellite" />
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+                  <h4 className="timeline-title">National Geospatial-Intelligence Agency</h4>
+                  <div className="timeline-subtitle">Software Development Intern</div>
+                  <div className="timeline-date"><small class="text-muted">Summer 2017</small></div>
                 </div>
                 <div className="timeline-body">
                   <p>
-                    Mussum ipsum cacilds, vidis litro abertis. Consetis
-                    adipiscings elitis. Pra lá , depois divoltis porris,
-                    paradis. Paisis, filhis, espiritis santis. Mé faiz elementum
-                    girarzis, nisi eros vermeio, in elementis mé pra quem é
-                    amistosis quis leo. Manduma pindureta quium dia nois paga.
-                    Sapien in monti palavris qui num significa nadis i pareci
-                    latim. Interessantiss quisso pudia ce receita de bolis, mais
-                    bolis eu num gostis.
-                  </p>
-                </div>
-              </div>
-            </li>
-          </Slide>
-          <Slide right>
-            <li className="timeline-inverted">
-              <div className="timeline-badge red">
-                <FontAwesomeIcon icon="lightbulb" />
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-                </div>
-                <div className="timeline-body">
-                  <p>
-                    Mussum ipsum cacilds, vidis litro abertis. Consetis
-                    adipiscings elitis. Pra lá , depois divoltis porris,
-                    paradis. Paisis, filhis, espiritis santis. Mé faiz elementum
-                    girarzis, nisi eros vermeio, in elementis mé pra quem é
-                    amistosis quis leo. Manduma pindureta quium dia nois paga.
-                    Sapien in monti palavris qui num significa nadis i pareci
-                    latim. Interessantiss quisso pudia ce receita de bolis, mais
-                    bolis eu num gostis.
+                    Worked on a webpage development team to create a web application that would aid in streamlining a certain process.
+                    The web application was developed in <b>React JS</b> and used <b>Flask</b> as the backend.
                   </p>
                 </div>
               </div>
@@ -115,48 +95,18 @@ class Timeline extends Component {
 
           <Slide left>
             <li>
-              <div className="timeline-badge blue">
-                <i className="glyphicon glyphicon-credit-card" />
+              <div className="timeline-badge red">
+                <FontAwesomeIcon icon="satellite" />
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+                  <h4 className="timeline-title">National Geospatial-Intelligence Agency</h4>
+                  <div className="timeline-subtitle">Software Development Intern</div>
+                  <div className="timeline-date"><small class="text-muted">Summer 2016</small></div>
                 </div>
                 <div className="timeline-body">
                   <p>
-                    Mussum ipsum cacilds, vidis litro abertis. Consetis
-                    adipiscings elitis. Pra lá , depois divoltis porris,
-                    paradis. Paisis, filhis, espiritis santis. Mé faiz elementum
-                    girarzis, nisi eros vermeio, in elementis mé pra quem é
-                    amistosis quis leo. Manduma pindureta quium dia nois paga.
-                    Sapien in monti palavris qui num significa nadis i pareci
-                    latim. Interessantiss quisso pudia ce receita de bolis, mais
-                    bolis eu num gostis.
-                  </p>
-                </div>
-              </div>
-            </li>
-          </Slide>
-
-          <Slide right>
-            <li className="timeline-inverted">
-              <div className="timeline-badge green">
-                <FontAwesomeIcon icon="lightbulb" />
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4 className="timeline-title">Mussum ipsum cacilds</h4>
-                </div>
-                <div className="timeline-body">
-                  <p>
-                    Mussum ipsum cacilds, vidis litro abertis. Consetis
-                    adipiscings elitis. Pra lá , depois divoltis porris,
-                    paradis. Paisis, filhis, espiritis santis. Mé faiz elementum
-                    girarzis, nisi eros vermeio, in elementis mé pra quem é
-                    amistosis quis leo. Manduma pindureta quium dia nois paga.
-                    Sapien in monti palavris qui num significa nadis i pareci
-                    latim. Interessantiss quisso pudia ce receita de bolis, mais
-                    bolis eu num gostis.
+                    Mobile Application Developer in the Pathfinder division, developed and deployed the <b>Tearline Application</b> to promote the distribution of mobile, unclassified intelligence.
                   </p>
                 </div>
               </div>

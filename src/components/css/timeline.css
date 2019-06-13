@@ -28,7 +28,7 @@
     letter-spacing: 5px;
     color: black;
     font-size: 20px;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
 }
 
 .timeline {
@@ -146,24 +146,46 @@
 }
 
 .timeline-badge.blue {
-    background-color: #2e6da4 !important;
+    background-color: #2196f3 !important;
 }
 
 .timeline-badge.green {
-    background-color: #3f903f !important;
+    background-color: #00897b !important;
+}
+
+.timeline-badge.yellow {
+    background-color: #fdd835 !important;
 }
 
 .timeline-badge.orange {
-    background-color: #f0ad4e !important;
+    background-color: #ffa000 !important;
 }
 
 .timeline-badge.red {
     background-color: #d9534f !important;
 }
 
+.timeline-heading {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+h4 {
+    margin-bottom: 2px !important;
+}
+
 .timeline-title {
     margin-top: 0;
     color: inherit;
+}
+
+.timeline-subtitle {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.timeline-body {
+    padding-top: 8px;
 }
 
 .timeline-body>p,
