@@ -14,12 +14,12 @@ button {
   padding: 0 !important;
 
   color: #42a5f5;
-  text-decoration: underline;
   cursor: pointer;
 }
 
 button:hover {
   color: #90caf9;
+  text-decoration: underline;
 }
 
 button:active {
