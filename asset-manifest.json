@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.8e7e55b0.chunk.css",
+    "main.js": "/me/static/js/main.0c890b6c.chunk.js",
+    "main.js.map": "/me/static/js/main.0c890b6c.chunk.js.map",
+    "runtime~main.js": "/me/static/js/runtime~main.7f73a39c.js",
+    "runtime~main.js.map": "/me/static/js/runtime~main.7f73a39c.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/me/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.f22c3a89.chunk.js": "/me/static/js/2.f22c3a89.chunk.js",
+    "static/js/2.f22c3a89.chunk.js.map": "/me/static/js/2.f22c3a89.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.47c22711002f55ada5f83c1bfdc99f63.js": "/me/precache-manifest.47c22711002f55ada5f83c1bfdc99f63.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/me/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.8e7e55b0.chunk.css.map": "/me/static/css/main.8e7e55b0.chunk.css.map",
+    "static/media/Resume_1Page_Michael_Chang.pdf": "/me/static/media/Resume_1Page_Michael_Chang.39e38d07.pdf",
+    "static/media/App.css": "/me/static/media/profilepic.9c66e343.jpg",
+    "static/media/introduction.css": "/me/static/media/splash2.a7e48e46.jpeg"
+  }
+}
