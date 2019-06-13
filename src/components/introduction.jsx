@@ -2,15 +2,64 @@ import React, { Component } from "react";
 import "./css/introduction.css";
 import Typist from "react-typist";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Carousel from 'react-bootstrap/Carousel';
+import pic1 from "./images/splash2.jpeg";
+import pic2 from "./images/splash.jpg";
 // import Parallax from "parallax-js";
 
 class Introduction extends Component {
- 
+  constructor(props, context) {
+    super(props, context);
+
+    this.handleSelect = this.handleSelect.bind(this);
+
+    this.state = {
+      index: 0,
+      direction: null,
+    };
+  }
+
+  handleSelect(selectedIndex, e) {
+    this.setState({
+      index: selectedIndex,
+      direction: e.direction,
+    });
+  }
+
 
   render() {
+    const { index, direction } = this.state;
+
+
     return (
       <div className="introduction">
-        <div className="splash_pic" />
+        {/* <div className="splash_pic" /> */}
+        <Carousel className="splash_pic"
+          activeIndex={index}
+          direction={direction}
+          onSelect={this.handleSelect}
+        >
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src= {pic1}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src= {pic2}
+              alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Second slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          
+        </Carousel>
         {/* <Typist
           avgTypingDelay={70}
           cursor={{ show: false, hideWhenDone: true }}

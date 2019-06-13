@@ -19,7 +19,7 @@ class Timeline extends Component {
                 <div className="timeline-heading">
                   <h4 className="timeline-title">Northrop Grumman</h4>
                   <div className="timeline-subtitle">Software Development Intern</div>
-                  <div className="timeline-date"><small class="text-muted">Summer 2019</small></div>
+                  <div className="timeline-date"><small className="text-muted">Summer 2019</small></div>
                 </div>
                 <div className="timeline-body">
                   <p>
@@ -39,7 +39,7 @@ class Timeline extends Component {
                 <div className="timeline-heading">
                   <h4 className="timeline-title">Plus3 IT</h4>
                   <div className="timeline-subtitle">Cloud Development Intern</div>
-                  <div className="timeline-date"><small class="text-muted">Winter 2018</small></div>
+                  <div className="timeline-date"><small className="text-muted">Winter 2018</small></div>
                 </div>
                 <div className="timeline-body">
                   <p>
@@ -60,7 +60,7 @@ class Timeline extends Component {
                 <div className="timeline-heading">
                   <h4 className="timeline-title">National Geospatial-Intelligence Agency</h4>
                   <div className="timeline-subtitle">Data Science Intern</div>
-                  <div className="timeline-date"><small class="text-muted">Summer 2018</small></div>
+                  <div className="timeline-date"><small className="text-muted">Summer 2018</small></div>
                 </div>
                 <div className="timeline-body">
                   <p>
@@ -81,7 +81,7 @@ class Timeline extends Component {
                 <div className="timeline-heading">
                   <h4 className="timeline-title">National Geospatial-Intelligence Agency</h4>
                   <div className="timeline-subtitle">Software Development Intern</div>
-                  <div className="timeline-date"><small class="text-muted">Summer 2017</small></div>
+                  <div className="timeline-date"><small className="text-muted">Summer 2017</small></div>
                 </div>
                 <div className="timeline-body">
                   <p>
@@ -102,7 +102,7 @@ class Timeline extends Component {
                 <div className="timeline-heading">
                   <h4 className="timeline-title">National Geospatial-Intelligence Agency</h4>
                   <div className="timeline-subtitle">Software Development Intern</div>
-                  <div className="timeline-date"><small class="text-muted">Summer 2016</small></div>
+                  <div className="timeline-date"><small className="text-muted">Summer 2016</small></div>
                 </div>
                 <div className="timeline-body">
                   <p>
