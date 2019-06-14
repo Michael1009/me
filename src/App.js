@@ -42,13 +42,13 @@ class App extends Component {
     this.aboutRef = React.createRef();
     this.experienceRef = React.createRef();
     this.timelineRef = React.createRef();
-    this.galleryRef = React.createRef();
+    this.projectsRef = React.createRef();
   }
 
   scrollToAboutRef = () => window.scrollTo(0, this.aboutRef.current.offsetTop);
   scrollToExperienceRef = () => window.scrollTo(0, this.experienceRef.current.offsetTop);
   scrollToTimelineRef = () => window.scrollTo(0, this.timelineRef.current.offsetTop);
-  scrollToGalleryRef = () => window.scrollTo(0, this.galleryRef.current.offsetTop);
+  scrollToProjectsRef = () => window.scrollTo(0, this.projectsRef.current.offsetTop);
 
 
   render() {
@@ -73,7 +73,7 @@ class App extends Component {
               <button onClick={() => this.scrollToTimelineRef()}>Timeline</button>
             </div>
             <div className="link">
-              <button onClick={() => this.scrollToGalleryRef()}>Gallery</button>
+              <button onClick={() => this.scrollToProjectsRef()}>Projects</button>
             </div>
           </div>
 
@@ -164,7 +164,7 @@ class App extends Component {
         <div ref={this.timelineRef}>
           <Timeline></Timeline>
         </div>
-        <div ref={this.galleryRef}>
+        <div ref={this.projectsRef}>
           {/* <Gallery></Gallery> */}
         </div>
 
