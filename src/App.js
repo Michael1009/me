@@ -4,6 +4,7 @@ import About from "./components/about";
 import Experience from "./components/experience";
 import Timeline from "./components/timeline";
 import Introduction from "./components/introduction";
+import Projects from "./components/projects";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import {
@@ -28,6 +29,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Pdf from "./components/resume/Resume_1Page_Michael_Chang.pdf";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
+import uva_logo from "./components/images/uva_logo.png"
 
 
 library.add(fab, faCheckSquare, faCoffee, faEnvelope,
@@ -61,6 +63,7 @@ class App extends Component {
         <div className="sidebar">
           <div className="profilepic" />
           <div className="heading">Michael Chang</div>
+          <div className="subheading">B.S. Computer Science Major at UVA</div>
 
           <div className="links">
             <div className="link">
@@ -150,7 +153,18 @@ class App extends Component {
             </div>
           </div>
           <div className="footer">
-            Made with <FontAwesomeIcon icon="heart" /> and <FontAwesomeIcon icon="coffee" />
+            <OverlayTrigger
+              placement="right"
+              overlay={<Tooltip>UVA</Tooltip>}
+            >
+              <a href="http://www.virginia.edu/" target="_blank">
+                <img src={uva_logo}></img>
+              </a>
+            </OverlayTrigger>
+
+            <div>
+              Made with <FontAwesomeIcon icon="heart" /> and <FontAwesomeIcon icon="coffee" />
+            </div>
           </div>
         </div>
         {/* End SideBar Code */}
@@ -165,7 +179,7 @@ class App extends Component {
           <Timeline></Timeline>
         </div>
         <div ref={this.projectsRef}>
-          {/* <Gallery></Gallery> */}
+          <Projects></Projects>
         </div>
 
       </div>
