@@ -138,6 +138,16 @@ class App extends Component {
                 </a>
               </OverlayTrigger>
             </div>
+            <div className="icon">
+              <OverlayTrigger
+                placement="right"
+                overlay={<Tooltip>Flickr</Tooltip>}
+              >
+                <a href="https://www.flickr.com/photos/michael9154/" target="_blank">
+                  <FontAwesomeIcon icon={["fab", "flickr"]} />
+                </a>
+              </OverlayTrigger>
+            </div>
           </div>
           <div className="footer">
             Made with <FontAwesomeIcon icon="heart" /> and <FontAwesomeIcon icon="coffee" />

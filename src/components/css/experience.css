@@ -51,11 +51,14 @@
     color: #4db6ac;
 }
 
+.text-center {
+    margin: 0 auto;
+}
+
 .card_1 {
     background-color: #2196f3 !important;
     color: white;
     font-size: 20px;
-
 }
 
 .card_2 {

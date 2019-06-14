@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./css/introduction.css";
-import Typist from "react-typist";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Carousel from 'react-bootstrap/Carousel';
-import pic1 from "./images/splash2.jpeg";
-import pic2 from "./images/splash.jpg";
-// import Parallax from "parallax-js";
+import pic1 from "./images/splash1.jpeg";
+import pic2 from "./images/splash2.jpeg";
+import pic3 from "./images/splash3.jpeg";
+import pic4 from "./images/splash4.jpeg";
+import pic5 from "./images/splash5.jpeg";
 
 class Introduction extends Component {
   constructor(props, context) {
@@ -33,69 +33,48 @@ class Introduction extends Component {
 
     return (
       <div className="introduction">
-        {/* <div className="splash_pic" /> */}
         <Carousel className="splash_pic"
           activeIndex={index}
           direction={direction}
           onSelect={this.handleSelect}
+          interval={6000}
         >
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src= {pic1}
+              src={pic1}
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src= {pic2}
+              src={pic2}
               alt="Third slide"
             />
           </Carousel.Item>
-          
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={pic3}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={pic4}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={pic5}
+              alt="Third slide"
+            />
+          </Carousel.Item>
         </Carousel>
-        {/* <Typist
-          avgTypingDelay={70}
-          cursor={{ show: false, hideWhenDone: true }}
-          startDelay={1000}
-        >
-          <div className="typing_header">
-            <div>
-              <span>Hi, I'm Michael!</span>
-            </div>
-          </div>
-
-          <Typist.Delay ms={500} />
-
-          <div className="activities">
-            <div className="activities_header">Things I enjoy in life...</div>
-            <Typist.Delay ms={200} />
-            <div>
-              <FontAwesomeIcon icon="laptop-code" /> Coding
-            </div>
-            <Typist.Delay ms={200} />
-            <div>
-              <FontAwesomeIcon icon="mountain" /> Hiking
-            </div>
-            <Typist.Delay ms={200} />
-            <div>
-              <FontAwesomeIcon icon="dumbbell" /> Weight Lifting
-            </div>
-            <Typist.Delay ms={200} />
-            <div>
-              <FontAwesomeIcon icon="plane" /> Traveling
-            </div>
-            <Typist.Delay ms={200} />
-            <div>......</div>
-            <Typist.Backspace count={6} delay={750} />
-            <div>
-              and <FontAwesomeIcon icon="camera-retro" />{" "}
-              <FontAwesomeIcon icon="images" />
-              's along the way :)
-            </div>
-          </div>
-        </Typist> */}
       </div>
     );
   }

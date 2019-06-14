@@ -1,8 +1,16 @@
 .introduction {
-    width:80%;
-    float:right;
+    width: 80%;
+    float: right;
     height: 100vh;
     color: white;
+}
+
+.carousel-control-next-icon {
+    display: none !important;
+}
+
+.carousel-control-prev-icon {
+    display: none !important;
 }
 
 img {
@@ -10,13 +18,10 @@ img {
 }
 
 .splash_pic {
-    height: 100vh; 
-    /* background-image: url("../images/splash2.jpeg"); */
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    /* filter: blur(1px);
-    -webkit-filter: blur(1px); */
 
 }
 
@@ -29,8 +34,10 @@ img {
     width: 40%;
     top: 30%;
     left: 60%;
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(97,97,97, 0.5); /* Black w/opacity/see-through */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(97, 97, 97, 0.5);
+    /* Black w/opacity/see-through */
     border: 3px solid #f1f1f1;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -49,8 +56,10 @@ img {
     width: 25%;
     top: 60%;
     left: 60%;
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(97,97,97, 0.5); /* Black w/opacity/see-through */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(97, 97, 97, 0.5);
+    /* Black w/opacity/see-through */
     color: white;
     border: 3px solid #f1f1f1;
     position: absolute;

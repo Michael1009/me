@@ -76,8 +76,9 @@ class Experience extends Component {
               <Card.Body>
                 <Card.Title>Software Development</Card.Title>
                 <Card.Text>
-                  Over the years, I've come to learn that software development is so much more than coding!
-                  My experience in the software development process comes from my personal experiences on software development teams (mostly using Agile) and an Advanced Software Development course at UVA.
+                  Over the years, I've come to learn that software development is so much more than coding.
+                  My experience in the software development process comes from my personal experiences on software
+                  development teams (mostly using Agile) and an Advanced Software Development course at UVA.
                 </Card.Text>
                 <Card.Link
                   className="cardlink"
