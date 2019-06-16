@@ -63,7 +63,7 @@ class App extends Component {
         <div className="sidebar">
           <div className="profilepic" />
           <div className="heading">Michael Chang</div>
-          <div className="subheading">B.S. Computer Science Major at UVA</div>
+          <div className="subheading">B.S. Computer Science at UVA</div>
 
           <div className="links">
             <div className="link">
@@ -75,9 +75,9 @@ class App extends Component {
             <div className="link">
               <button onClick={() => this.scrollToTimelineRef()}>Timeline</button>
             </div>
-            <div className="link">
+            {/* <div className="link">
               <button onClick={() => this.scrollToProjectsRef()}>Projects</button>
-            </div>
+            </div> */}
           </div>
 
           <div className="icons">
@@ -178,9 +178,9 @@ class App extends Component {
         <div ref={this.timelineRef}>
           <Timeline></Timeline>
         </div>
-        <div ref={this.projectsRef}>
+        {/* <div ref={this.projectsRef}>
           <Projects></Projects>
-        </div>
+        </div> */}
 
       </div>
     );
