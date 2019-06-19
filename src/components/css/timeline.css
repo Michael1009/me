@@ -186,6 +186,13 @@ h4 {
 }
 
 @media screen and (max-width: 600px) {
+    .container {
+        float: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-family: 'Roboto Slab', serif;
+    }
+
     .timeline {
         list-style: none;
         /* padding: 20px 0 20px; */
