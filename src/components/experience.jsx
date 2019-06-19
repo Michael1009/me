@@ -17,7 +17,7 @@ class Experience extends Component {
         <div className="subheading"> WHAT AM I GOOD AT? </div>
 
         <CardDeck className="card_deck">
-          <Fade up>
+          <Fade up className="react-reveal">
             <Card className="text-center" style={{ width: "18rem" }}>
               <Card.Header className="card_1">
                 <FontAwesomeIcon icon="code" />
@@ -25,7 +25,7 @@ class Experience extends Component {
               <Card.Body>
                 <Card.Title>Web Development</Card.Title>
                 <Card.Text>
-                  My solid foundation in web development comes from working on various projects to develop web applications.
+                  My foundation in web development comes from working on various projects to develop web applications.
                   I have developed web applications using React JS, Angular, Spring, and Django and am comfortable learning new frameworks.
                   In addition to these, I have also integrated web applications with Microsoft Azure and Travis CI.
                 </Card.Text>
@@ -44,7 +44,7 @@ class Experience extends Component {
             </Card>
           </Fade>
 
-          <Fade up delay={400}>
+          <Fade up delay={400} className="react-reveal">
             <Card className="text-center" style={{ width: "18rem" }}>
               <Card.Header className="card_2">
                 <FontAwesomeIcon icon="lightbulb" />
@@ -68,7 +68,7 @@ class Experience extends Component {
             </Card>
           </Fade>
 
-          <Fade up delay={800}>
+          <Fade up delay={800} className="react-reveal">
             <Card className="text-center" style={{ width: "18rem" }}>
               <Card.Header className="card_3">
                 <FontAwesomeIcon icon="users" />

@@ -108,4 +108,8 @@
         width: 100% !important;
     }
 
+    .react-reveal {
+        animation-delay: 0ms !important;
+    }
+
 }
