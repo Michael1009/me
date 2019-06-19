@@ -38,7 +38,8 @@
     background-color: #cfd8dc;
 }
 
-.footer_logo {
-    height: 30px;
+.wired_logo {
+    height: 25px;
+    margin-top: -3px;
     object-fit: contain;
 }

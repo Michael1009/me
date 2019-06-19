@@ -58,13 +58,35 @@ class Projects extends Component {
             <Card.Footer>
               <Card.Link
                 className="cardlink"
+                href="https://play.google.com/store/apps/details?id=mil.nga.tearline&hl=en" target="_blank"
+              >
+                <OverlayTrigger
+                  placement="bottom"
+                  overlay={<Tooltip style={{ fontSize: "12px" }}>Google Play</Tooltip>}
+                >
+                  <FontAwesomeIcon className="icon_blue" icon={["fab", "google-play"]} />
+                </OverlayTrigger>
+              </Card.Link>
+              <Card.Link
+                className="cardlink"
+                href="https://apps.apple.com/us/app/tearline/id1201916437" target="_blank"
+              >
+                <OverlayTrigger
+                  placement="bottom"
+                  overlay={<Tooltip style={{ fontSize: "12px" }}>iOS App Store</Tooltip>}
+                >
+                  <FontAwesomeIcon className="icon_blue" icon={["fab", "app-store-ios"]} />
+                </OverlayTrigger>
+              </Card.Link>
+              <Card.Link
+                className="cardlink"
                 href="https://www.wired.com/2017/04/american-spies-now-smartphone-app/#slide-3" target="_blank"
               >
                 <OverlayTrigger
-                  placement="right"
+                  placement="bottom"
                   overlay={<Tooltip style={{ fontSize: "12px" }}>WIRED Publication</Tooltip>}
                 >
-                  <img className="footer_logo" src={wired_logo} />
+                  <img className="wired_logo" src={wired_logo} />
                 </OverlayTrigger>
               </Card.Link>
             </Card.Footer>
