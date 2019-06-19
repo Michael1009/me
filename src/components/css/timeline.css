@@ -188,8 +188,8 @@ h4 {
 @media screen and (max-width: 600px) {
     .container {
         float: center;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
         font-family: 'Roboto Slab', serif;
     }
 
