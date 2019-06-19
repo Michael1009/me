@@ -75,9 +75,9 @@ class App extends Component {
             <div className="link">
               <button onClick={() => this.scrollToTimelineRef()}>Timeline</button>
             </div>
-            {/* <div className="link">
+            <div className="link">
               <button onClick={() => this.scrollToProjectsRef()}>Projects</button>
-            </div> */}
+            </div>
           </div>
 
           <div className="icons">
@@ -86,7 +86,7 @@ class App extends Component {
                 placement="right"
                 overlay={<Tooltip>Resume</Tooltip>}
               >
-                <a href={Pdf} target="_blank">
+                <a href={Pdf} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon="file-alt" />
                 </a>
               </OverlayTrigger>
@@ -96,7 +96,7 @@ class App extends Component {
                 placement="right"
                 overlay={<Tooltip>Email</Tooltip>}
               >
-                <a href="mailto:myc6cp@virginia.edu" target="_blank">
+                <a href="mailto:myc6cp@virginia.edu" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon="envelope" />
                 </a>
               </OverlayTrigger>
@@ -106,7 +106,7 @@ class App extends Component {
                 placement="right"
                 overlay={<Tooltip>LinkedIn</Tooltip>}
               >
-                <a href="https://linkedin.com/in/mchang2017/" target="_blank">
+                <a href="https://linkedin.com/in/mchang2017/" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={["fab", "linkedin"]} />
                 </a>
               </OverlayTrigger>
@@ -116,7 +116,7 @@ class App extends Component {
                 placement="right"
                 overlay={<Tooltip>Github</Tooltip>}
               >
-                <a href="https://github.com/Michael1009/" target="_blank">
+                <a href="https://github.com/Michael1009/" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={["fab", "github"]} />
                 </a>
               </OverlayTrigger>
@@ -126,7 +126,7 @@ class App extends Component {
                 placement="right"
                 overlay={<Tooltip>Facebook</Tooltip>}
               >
-                <a href="https://www.facebook.com/Michael9154/" target="_blank">
+                <a href="https://www.facebook.com/Michael9154/" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={["fab", "facebook"]} />
                 </a>
               </OverlayTrigger>
@@ -136,7 +136,7 @@ class App extends Component {
                 placement="right"
                 overlay={<Tooltip>Instagram</Tooltip>}
               >
-                <a href="https://www.instagram.com/michael9154" target="_blank">
+                <a href="https://www.instagram.com/michael9154" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={["fab", "instagram"]} />
                 </a>
               </OverlayTrigger>
@@ -146,7 +146,7 @@ class App extends Component {
                 placement="right"
                 overlay={<Tooltip>Flickr</Tooltip>}
               >
-                <a href="https://www.flickr.com/photos/michael9154/" target="_blank">
+                <a href="https://www.flickr.com/photos/michael9154/" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={["fab", "flickr"]} />
                 </a>
               </OverlayTrigger>
@@ -157,8 +157,8 @@ class App extends Component {
               placement="right"
               overlay={<Tooltip>UVA</Tooltip>}
             >
-              <a href="http://www.virginia.edu/" target="_blank">
-                <img src={uva_logo}></img>
+              <a href="http://www.virginia.edu/" target="_blank" rel="noopener noreferrer">
+                <img src={uva_logo} alt="UVA"></img>
               </a>
             </OverlayTrigger>
 
@@ -178,9 +178,9 @@ class App extends Component {
         <div ref={this.timelineRef}>
           <Timeline></Timeline>
         </div>
-        {/* <div ref={this.projectsRef}>
+        <div ref={this.projectsRef}>
           <Projects></Projects>
-        </div> */}
+        </div>
 
       </div>
     );
