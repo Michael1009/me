@@ -4,7 +4,7 @@ import "./css/projects.css";
 import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 import tearline_logo from './images/tearline.webp';
-import skibuilder_logo from './images/skibuilder.png';
+import skibuilder_logo from './images/ski.png';
 
 class Projects extends Component {
 
@@ -19,9 +19,12 @@ class Projects extends Component {
           <Card>
             <Card.Img variant="top" src={skibuilder_logo} className="card-img skibuilder" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>SkillMatch</Card.Title>
               <Card.Text>
-                School project blah blah blah
+              SkiMatch is a web application that allows UVA students and faculty to connect over shared skills, 
+              interests, experiences and expertise. Users can create profiles that list their relevant academic information 
+              (i.e. major, past courses, UVA email, etc.) and skills, along with an explanation of why they are using the app 
+              (i.e. to find/provide tutoring, form study groups, or find community members with similar hobbies and interests).
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -31,7 +34,7 @@ class Projects extends Component {
           <Card>
             <Card.Img variant="top" src={tearline_logo} className="card-img tearline" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Tearline</Card.Title>
               <Card.Text>
                 This is a wider card with supporting text below as a natural lead-in to
                 additional content. This content is a little bit longer.
