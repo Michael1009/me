@@ -16,7 +16,7 @@ class Experience extends Component {
         <div className="heading"> EXPERIENCE </div>
         <div className="subheading"> WHAT AM I GOOD AT? </div>
 
-        <CardDeck>
+        <CardDeck className="card_deck">
           <Fade up>
             <Card className="text-center" style={{ width: "18rem" }}>
               <Card.Header className="card_1">
