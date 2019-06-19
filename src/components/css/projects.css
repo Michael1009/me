@@ -26,7 +26,7 @@
 
 .card-img {
     width: 100%;
-    height: 5vw;
+    height: 8vw;
     object-fit: contain;
 }
 
@@ -36,4 +36,9 @@
 
 .card-img.skibuilder {
     background-color: #cfd8dc;
+}
+
+.footer_logo {
+    height: 30px;
+    object-fit: contain;
 }
