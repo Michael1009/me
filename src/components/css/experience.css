@@ -83,8 +83,8 @@
         text-align: left;
         height: 300;
         padding-bottom: 32px;
-        /* padding-left: 64px;
-        padding-right: 64px; */
+        padding-left: 32px;
+        padding-right: 32px;
         font-family: 'Roboto Slab', serif;
     }
     
