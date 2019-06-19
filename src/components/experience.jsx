@@ -18,7 +18,7 @@ class Experience extends Component {
 
         <CardDeck className="card_deck">
           <Fade up className="react-reveal">
-            <Card className="text-center" style={{ width: "18rem" }}>
+            <Card className="text-center">
               <Card.Header className="card_1">
                 <FontAwesomeIcon icon="code" />
               </Card.Header>
@@ -45,7 +45,7 @@ class Experience extends Component {
           </Fade>
 
           <Fade up delay={400} className="react-reveal">
-            <Card className="text-center" style={{ width: "18rem" }}>
+            <Card className="text-center">
               <Card.Header className="card_2">
                 <FontAwesomeIcon icon="lightbulb" />
               </Card.Header>
@@ -69,7 +69,7 @@ class Experience extends Component {
           </Fade>
 
           <Fade up delay={800} className="react-reveal">
-            <Card className="text-center" style={{ width: "18rem" }}>
+            <Card className="text-center">
               <Card.Header className="card_3">
                 <FontAwesomeIcon icon="users" />
               </Card.Header>

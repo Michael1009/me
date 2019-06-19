@@ -4,6 +4,7 @@ import "./css/projects.css";
 import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 import tearline_logo from './images/tearline.webp';
+import skibuilder_logo from './images/skibuilder.png';
 
 class Projects extends Component {
 
@@ -16,7 +17,19 @@ class Projects extends Component {
 
         <CardDeck>
           <Card>
-            <Card.Img variant="top" src={tearline_logo} />
+            <Card.Img variant="top" src={skibuilder_logo} className="card-img skibuilder" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                School project blah blah blah
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </Card.Footer>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src={tearline_logo} className="card-img tearline" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
@@ -28,21 +41,9 @@ class Projects extends Component {
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer>
           </Card>
+
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
-          </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src={tearline_logo} className="card-img" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
