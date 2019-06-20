@@ -17,11 +17,15 @@ class Projects extends Component {
 
     return (
       <div className="projects">
-        <div className="subheading">PROJECTS</div>
+        <div className="heading">PROJECTS</div>
+        <div className="subheading">MY WORK</div>
 
         <CardDeck>
-          <Card>
-            <Card.Img variant="top" src={skibuilder_logo} className="card-img skibuilder" />
+
+          <Card className="project_card">
+            <a href="https://skillbuilder.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <Card.Img variant="top" src={skibuilder_logo} className="card-img skibuilder" />
+            </a>
             <Card.Body>
               <Card.Title>SkillMatch</Card.Title>
               <Card.Text>
@@ -37,16 +41,30 @@ class Projects extends Component {
                 href="https://github.com/Michael1009/project-101-byteme" target="_blank"
               >
                 <OverlayTrigger
-                  placement="right"
+                  placement="bottom"
                   overlay={<Tooltip style={{ fontSize: "12px" }}>SkillMatch</Tooltip>}
                 >
-                  <FontAwesomeIcon className="icon_blue" icon={["fab", "github"]} />
+                  <FontAwesomeIcon className="footer_icon" icon={["fab", "github"]} />
+                </OverlayTrigger>
+              </Card.Link>
+              <Card.Link
+                className="cardlink"
+                href="https://skillbuilder.herokuapp.com/" target="_blank"
+              >
+                <OverlayTrigger
+                  placement="bottom"
+                  overlay={<Tooltip style={{ fontSize: "12px" }}>Website</Tooltip>}
+                >
+                  <FontAwesomeIcon className="footer_icon" icon="laptop-code" />
                 </OverlayTrigger>
               </Card.Link>
             </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src={tearline_logo} className="card-img tearline" />
+
+          <Card className="project_card">
+            <a href="https://play.google.com/store/apps/details?id=mil.nga.tearline&hl=en" target="_blank" rel="noopener noreferrer">
+              <Card.Img variant="top" src={tearline_logo} className="card-img tearline" />
+            </a>
             <Card.Body>
               <Card.Title>Tearline</Card.Title>
               <Card.Text>
@@ -64,7 +82,7 @@ class Projects extends Component {
                   placement="bottom"
                   overlay={<Tooltip style={{ fontSize: "12px" }}>Google Play</Tooltip>}
                 >
-                  <FontAwesomeIcon className="icon_blue" icon={["fab", "google-play"]} />
+                  <FontAwesomeIcon className="footer_icon" icon={["fab", "google-play"]} />
                 </OverlayTrigger>
               </Card.Link>
               <Card.Link
@@ -73,9 +91,9 @@ class Projects extends Component {
               >
                 <OverlayTrigger
                   placement="bottom"
-                  overlay={<Tooltip style={{ fontSize: "12px" }}>iOS App Store</Tooltip>}
+                  overlay={<Tooltip style={{ fontSize: "12px" }}>App Store</Tooltip>}
                 >
-                  <FontAwesomeIcon className="icon_blue" icon={["fab", "app-store-ios"]} />
+                  <FontAwesomeIcon className="footer_icon" icon={["fab", "app-store-ios"]} />
                 </OverlayTrigger>
               </Card.Link>
               <Card.Link
@@ -86,26 +104,12 @@ class Projects extends Component {
                   placement="bottom"
                   overlay={<Tooltip style={{ fontSize: "12px" }}>WIRED Publication</Tooltip>}
                 >
-                  <img className="wired_logo" src={wired_logo} />
+                  <img className="wired_logo" src={wired_logo} alt="Wired" />
                 </OverlayTrigger>
               </Card.Link>
             </Card.Footer>
           </Card>
 
-          <Card>
-            <Card.Img variant="top" src={tearline_logo} className="card-img" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
-          </Card>
         </CardDeck>
       </div>
     );

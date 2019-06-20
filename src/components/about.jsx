@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import "./css/about.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
 import Fade from "react-reveal/Fade";
 
 class About extends Component {
