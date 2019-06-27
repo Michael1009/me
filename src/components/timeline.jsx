@@ -3,6 +3,10 @@ import "./css/timeline.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Slide from "react-reveal/Slide";
 
+import ng_logo from './images/ng_logo.jpg';
+import nga_logo from './images/nga_logo.png';
+import p3it_logo from './images/p3it_logo.png';
+
 class Timeline extends Component {
   render() {
     return (
@@ -16,11 +20,16 @@ class Timeline extends Component {
                 <FontAwesomeIcon icon="code" />
               </div>
               <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4 className="timeline-title">Northrop Grumman</h4>
-                  <div className="timeline-subtitle">Software Development Intern</div>
-                  <div className="timeline-date"><small className="text-muted">Summer 2019</small></div>
+
+                <div className="heading-container">
+                  <img className="timeline-logo" src={ng_logo} alt="logo" />
+                  <div className="timeline-heading">
+                    <h4 className="timeline-title">Northrop Grumman</h4>
+                    <div className="timeline-subtitle">Software Development Intern</div>
+                    <div className="timeline-date"><small className="text-muted">Summer 2019</small></div>
+                  </div>
                 </div>
+
                 <div className="timeline-body">
                   <p>
                     Developed a full stack web application using <b>React JS</b> and <b>Spring</b> to help a team automate a certain complex process.
@@ -36,11 +45,15 @@ class Timeline extends Component {
                 <FontAwesomeIcon icon="cloud" />
               </div>
               <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4 className="timeline-title">Plus3 IT</h4>
-                  <div className="timeline-subtitle">Cloud Development Intern</div>
-                  <div className="timeline-date"><small className="text-muted">Winter 2018</small></div>
+                <div className="heading-container">
+                  <img className="timeline-logo" src={p3it_logo} alt="logo" />
+                  <div className="timeline-heading">
+                    <h4 className="timeline-title">Plus3 IT</h4>
+                    <div className="timeline-subtitle">Cloud Development Intern</div>
+                    <div className="timeline-date"><small className="text-muted">Winter 2018</small></div>
+                  </div>
                 </div>
+
                 <div className="timeline-body">
                   <p>
                     Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
@@ -57,10 +70,13 @@ class Timeline extends Component {
                 <FontAwesomeIcon icon="satellite" />
               </div>
               <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4 className="timeline-title">National Geospatial-Intelligence Agency</h4>
-                  <div className="timeline-subtitle">Data Science Intern</div>
-                  <div className="timeline-date"><small className="text-muted">Summer 2018</small></div>
+                <div className="heading-container">
+                  <img className="timeline-logo" src={nga_logo} alt="logo" />
+                  <div className="timeline-heading">
+                    <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
+                    <div className="timeline-subtitle">Data Science Intern</div>
+                    <div className="timeline-date"><small className="text-muted">Summer 2018</small></div>
+                  </div>
                 </div>
                 <div className="timeline-body">
                   <p>
@@ -78,10 +94,13 @@ class Timeline extends Component {
                 <FontAwesomeIcon icon="satellite" />
               </div>
               <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4 className="timeline-title">National Geospatial-Intelligence Agency</h4>
-                  <div className="timeline-subtitle">Software Development Intern</div>
-                  <div className="timeline-date"><small className="text-muted">Summer 2017</small></div>
+                <div className="heading-container">
+                  <img className="timeline-logo" src={nga_logo} alt="logo" />
+                  <div className="timeline-heading">
+                    <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
+                    <div className="timeline-subtitle">Software Development Intern</div>
+                    <div className="timeline-date"><small className="text-muted">Summer 2017</small></div>
+                  </div>
                 </div>
                 <div className="timeline-body">
                   <p>
@@ -99,10 +118,13 @@ class Timeline extends Component {
                 <FontAwesomeIcon icon="satellite" />
               </div>
               <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4 className="timeline-title">National Geospatial-Intelligence Agency</h4>
-                  <div className="timeline-subtitle">Software Development Intern</div>
-                  <div className="timeline-date"><small className="text-muted">Summer 2016</small></div>
+                <div className="heading-container">
+                  <img className="timeline-logo" src={nga_logo} alt="logo" />
+                  <div className="timeline-heading">
+                    <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
+                    <div className="timeline-subtitle">Software Development Intern</div>
+                    <div className="timeline-date"><small className="text-muted">Summer 2016</small></div>
+                  </div>
                 </div>
                 <div className="timeline-body">
                   <p>
