@@ -1,7 +1,7 @@
 .container {
     float: center;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -187,27 +187,27 @@ h4 {
 
 .timeline-logo {
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
     margin-right: 16px;
-    margin-top: -40px;
+    margin-top: -48px;
     margin-bottom: 16px;
 }
 
 .timeline-title-nga {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 600px) {
     .container {
         float: center;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
         font-family: 'Roboto Slab', serif;
     }
 
