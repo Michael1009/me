@@ -271,7 +271,7 @@ h4 {
     }
 
     .timeline>li>.timeline-panel {
-        width: 88%;
+        width: 86%;
         float: left;
         border: 1px solid #d4d4d4;
         border-radius: 2px;
@@ -344,7 +344,6 @@ h4 {
 
     .timeline-heading {
         padding-bottom: 6px;
-        border-bottom: 1px solid #bdbdbd;
     }
 
     h4 {
