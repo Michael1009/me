@@ -59,7 +59,7 @@ class Timeline extends Component {
                     <p>
                       Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
                     backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                            Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                                Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ class Timeline extends Component {
 
         <div className="mobile">
           <ul className="timeline">
-            <Slide left>
+            <Slide right>
               <li className="timeline-inverted">
                 <div className="timeline-badge blue">
                   <FontAwesomeIcon icon="code" />
@@ -165,7 +165,7 @@ class Timeline extends Component {
                 </div>
               </li>
             </Slide>
-            <Slide left>
+            <Slide right>
               <li className="timeline-inverted">
                 <div className="timeline-badge green">
                   <FontAwesomeIcon icon="cloud" />
@@ -184,13 +184,13 @@ class Timeline extends Component {
                     <p>
                       Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
                     backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                            Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                                Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>
               </li>
             </Slide>
-            <Slide left>
+            <Slide right>
               <li className="timeline-inverted">
                 <div className="timeline-badge yellow">
                   <FontAwesomeIcon icon="satellite" />
@@ -214,7 +214,7 @@ class Timeline extends Component {
                 </div>
               </li>
             </Slide>
-            <Slide left>
+            <Slide right>
               <li className="timeline-inverted">
                 <div className="timeline-badge orange">
                   <FontAwesomeIcon icon="satellite" />
@@ -238,7 +238,7 @@ class Timeline extends Component {
               </li>
             </Slide>
 
-            <Slide left>
+            <Slide right>
               <li className="timeline-inverted">
                 <div className="timeline-badge red">
                   <FontAwesomeIcon icon="satellite" />
