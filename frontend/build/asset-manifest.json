@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.e69b0557.chunk.css",
+    "main.js": "/me/static/js/main.61fe3de1.chunk.js",
+    "main.js.map": "/me/static/js/main.61fe3de1.chunk.js.map",
+    "runtime~main.js": "/me/static/js/runtime~main.7f73a39c.js",
+    "runtime~main.js.map": "/me/static/js/runtime~main.7f73a39c.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/me/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.0ef43214.chunk.js": "/me/static/js/2.0ef43214.chunk.js",
+    "static/js/2.0ef43214.chunk.js.map": "/me/static/js/2.0ef43214.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.4f37f4601864521afc65f69506213956.js": "/me/precache-manifest.4f37f4601864521afc65f69506213956.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/me/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.e69b0557.chunk.css.map": "/me/static/css/main.e69b0557.chunk.css.map",
+    "static/media/Resume_1Page_Michael_Chang.pdf": "/me/static/media/Resume_1Page_Michael_Chang.cf7f1e41.pdf",
+    "static/media/ng_logo.jpg": "/me/static/media/ng_logo.6c975910.jpg",
+    "static/media/nga_logo.png": "/me/static/media/nga_logo.544bb7fe.png",
+    "static/media/p3it_logo.png": "/me/static/media/p3it_logo.0ef64bf1.png",
+    "static/media/App.css": "/me/static/media/profilepic.9c66e343.jpg",
+    "static/media/ski.png": "/me/static/media/ski.2600b031.png",
+    "static/media/splash1.jpeg": "/me/static/media/splash1.a7e48e46.jpeg",
+    "static/media/splash2.jpeg": "/me/static/media/splash2.ededdb53.jpeg",
+    "static/media/splash3.jpeg": "/me/static/media/splash3.0d3ed927.jpeg",
+    "static/media/splash4.jpeg": "/me/static/media/splash4.37adb631.jpeg",
+    "static/media/splash5.jpeg": "/me/static/media/splash5.f4ba531a.jpeg",
+    "static/media/uva_logo.png": "/me/static/media/uva_logo.4e28ea84.png"
+  }
+}
