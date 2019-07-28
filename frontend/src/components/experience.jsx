@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 import Fade from "react-reveal/Fade";
-import Pdf from "./resume/Resume_1Page_Michael_Chang.pdf";
+import Pdf from "../resume/Resume_1Page_Michael_Chang.pdf";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 

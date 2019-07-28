@@ -3,9 +3,9 @@ import "./css/timeline.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Slide from "react-reveal/Slide";
 
-import ng_logo from './images/ng_logo.jpg';
-import nga_logo from './images/nga_logo.png';
-import p3it_logo from './images/p3it_logo.png';
+import ng_logo from '../images/ng_logo.jpg';
+import nga_logo from '../images/nga_logo.png';
+import p3it_logo from '../images/p3it_logo.png';
 
 class Timeline extends Component {
   render() {
@@ -59,7 +59,7 @@ class Timeline extends Component {
                     <p>
                       Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
                     backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                                Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                                  Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ class Timeline extends Component {
                     <p>
                       Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
                     backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                                Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                                  Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>

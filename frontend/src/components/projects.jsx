@@ -5,9 +5,9 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
-import tearline_logo from './images/tearline.png';
-import skibuilder_logo from './images/ski.png';
-import wired_logo from './images/wired_logo.png';
+import tearline_logo from '../images/tearline.png';
+import skibuilder_logo from '../images/ski.png';
+import wired_logo from '../images/wired_logo.png';
 
 
 class Projects extends Component {

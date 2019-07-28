@@ -92,7 +92,7 @@ button:focus {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("./components/images/profilepic.jpg");
+  background-image: url("./images/profilepic.jpg");
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
 }
 

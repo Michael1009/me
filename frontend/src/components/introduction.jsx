@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./css/introduction.css";
 import Carousel from 'react-bootstrap/Carousel';
-import pic1 from "./images/splash1.jpg";
-import pic2 from "./images/splash2.jpg";
-import pic3 from "./images/splash3.jpg";
-import pic4 from "./images/splash4.jpg";
-import pic5 from "./images/splash5.jpg";
+import pic1 from "../images/splash1.jpg";
+import pic2 from "../images/splash2.jpg";
+import pic3 from "../images/splash3.jpg";
+import pic4 from "../images/splash4.jpg";
+import pic5 from "../images/splash5.jpg";
 
 class Introduction extends Component {
   constructor(props, context) {

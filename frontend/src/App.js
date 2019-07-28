@@ -26,10 +26,10 @@ import {
   faCloud
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Pdf from "./components/resume/Resume_1Page_Michael_Chang.pdf";
+import Pdf from "./resume/Resume_1Page_Michael_Chang.pdf";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
-import uva_logo from "./components/images/uva_logo.png"
+import uva_logo from "./images/uva_logo.png"
 
 
 library.add(fab, faCheckSquare, faCoffee, faEnvelope,
