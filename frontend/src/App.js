@@ -25,7 +25,8 @@ import {
   faLightbulb,
   faUsers,
   faSatellite,
-  faCloud
+  faCloud,
+  faPhone
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Pdf from "./resume/Resume_1Page_Michael_Chang.pdf";
@@ -37,7 +38,7 @@ import uva_logo from "./images/uva_logo.png"
 library.add(fab, faCheckSquare, faCoffee, faEnvelope,
   faHeart, faFileAlt, faLaptopCode, faMountain, faPlane,
   faDumbbell, faCameraRetro, faImages, faCode, faLightbulb,
-  faUsers, faSatellite, faCloud)
+  faUsers, faSatellite, faCloud, faPhone)
 
 class App extends Component {
 
@@ -183,10 +184,10 @@ class App extends Component {
         <div ref={this.projectsRef}>
           <Projects></Projects>
         </div>
-        <div ref={this.projectsRef}>
+        <div>
           <Contact></Contact>
         </div>
-        <div ref={this.projectsRef}>
+        <div>
           <Footer></Footer>
         </div>
 

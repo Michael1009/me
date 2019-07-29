@@ -41,7 +41,7 @@ class Experience extends Component {
                   </OverlayTrigger>
                 </Card.Link>
               </Card.Body>
-            </Card>
+            </Card>            
           </Fade>
 
           <Fade up delay={400} className="react-reveal">
