@@ -25,14 +25,13 @@ export default class Contact extends Component {
         if (this.state.captcha !== '' && this.state.captcha !== null) {
             console.log(event.target.email.value);
         }
+        else {
+            console.log(this.state.captcha);
+        }
     }
 
     onCaptchaChange(value) {
         this.setState({ captcha: value })
-    }
-
-    onCaptchaExpire() {
-        this.setState({ captcha: '' })
     }
 
     render() {
@@ -52,7 +51,6 @@ export default class Contact extends Component {
                         className="recaptcha"
                         sitekey="6LdL968UAAAAAOewuSqme4aosvcbhgZbmH-nw5-X"
                         onChange={this.onCaptchaChange}
-                        onExpired={this.onCaptchaExpire}
                     />
 
                     <button className="contact_button" type="submit">

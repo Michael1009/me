@@ -1,5 +1,5 @@
 .about {
-    width:100%;
+    width: 100%;
     text-align: left;
     height: 300;
     padding-bottom: 32px;
@@ -9,9 +9,8 @@
 }
 
 .about .text {
-    padding-left: 256px;
-    padding-right: 256px;
-
+    width: 60%;
+    margin: auto;
 }
 
 .about .heading {
@@ -37,20 +36,19 @@
 
 @media screen and (max-width: 600px) {
     .about {
-        width:100%;
+        width: 100%;
         text-align: left;
         height: 300;
         padding-left: 0px;
         padding-right: 0px;
         font-family: 'Roboto Slab', serif;
     }
-    
+
     .about .text {
-        padding-left: 32px;
-        padding-right: 32px;
-    
+        width: 80%;
+        margin: auto;
     }
-    
+
     .about .heading {
         letter-spacing: 5px;
         color: #78909c;
@@ -58,15 +56,15 @@
         padding-bottom: 8px;
         padding-top: 70px;
     }
-    
+
     .about .subheading {
         letter-spacing: 5px;
         color: black;
         font-size: 20px;
         padding-bottom: 16px;
-    
+
     }
-    
+
     .about .description {
         padding-bottom: 16px;
     }
