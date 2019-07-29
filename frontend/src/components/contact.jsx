@@ -31,6 +31,10 @@ export default class Contact extends Component {
         this.setState({ captcha: value })
     }
 
+    onCaptchaExpire() {
+        this.setState({ captcha: '' })
+    }
+
     render() {
         return (
             <div className="contact_container">
@@ -48,6 +52,7 @@ export default class Contact extends Component {
                         className="recaptcha"
                         sitekey="6LdL968UAAAAAOewuSqme4aosvcbhgZbmH-nw5-X"
                         onChange={this.onCaptchaChange}
+                        onExpired={this.onCaptchaExpire}
                     />
 
                     <button className="contact_button" type="submit">
