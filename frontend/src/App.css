@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-button {
+.button_link {
   background: none !important;
   border: none;
   padding: 0 !important;
@@ -17,17 +17,17 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button_link:hover {
   color: #90caf9;
   text-decoration: underline;
 }
 
-button:active {
+.button_link:active {
   outline: none;
   border: none;
 }
 
-button:focus {
+.button_link:focus {
   outline: 0 !important;
 }
 

@@ -5,6 +5,8 @@ import Experience from "./components/experience";
 import Timeline from "./components/timeline";
 import Introduction from "./components/introduction";
 import Projects from "./components/projects";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import {
@@ -67,16 +69,16 @@ class App extends Component {
 
           <div className="links">
             <div className="link">
-              <button onClick={() => this.scrollToAboutRef()}>About</button>
+              <button className="button_link" onClick={() => this.scrollToAboutRef()}>About</button>
             </div>
             <div className="link">
-              <button onClick={() => this.scrollToExperienceRef()}>Experience</button>
+              <button className="button_link" onClick={() => this.scrollToExperienceRef()}>Experience</button>
             </div>
             <div className="link">
-              <button onClick={() => this.scrollToTimelineRef()}>Timeline</button>
+              <button className="button_link" onClick={() => this.scrollToTimelineRef()}>Timeline</button>
             </div>
             <div className="link">
-              <button onClick={() => this.scrollToProjectsRef()}>Projects</button>
+              <button className="button_link" onClick={() => this.scrollToProjectsRef()}>Projects</button>
             </div>
           </div>
 
@@ -180,6 +182,12 @@ class App extends Component {
         </div>
         <div ref={this.projectsRef}>
           <Projects></Projects>
+        </div>
+        <div ref={this.projectsRef}>
+          <Contact></Contact>
+        </div>
+        <div ref={this.projectsRef}>
+          <Footer></Footer>
         </div>
 
       </div>
