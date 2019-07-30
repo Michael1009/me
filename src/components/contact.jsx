@@ -40,7 +40,7 @@ export default class Contact extends Component {
                 if (res.status !== 200) {
                     throw new Error("Error Uploading");
                 }
-                console.log(res);
+                event.target.reset();
             }).catch(error => {
                 console.log(error);
             });
