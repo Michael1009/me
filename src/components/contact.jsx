@@ -31,6 +31,7 @@ export default class Contact extends Component {
                 message: event.target.message.value
             };
 
+            event.target.reset();
             // Progress bar with axios
             axios.request({
                 method: "post",
@@ -40,7 +41,6 @@ export default class Contact extends Component {
                 if (res.status !== 200) {
                     throw new Error("Error Uploading");
                 }
-                event.target.reset();
             }).catch(error => {
                 console.log(error);
             });
