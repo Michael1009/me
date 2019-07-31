@@ -30,6 +30,14 @@
     height: 300px;
 }
 
+.card {
+    transition: transform .3s; /* Animation */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
 @media screen and (max-width: 600px) {
     .experience {
         width: 100%;
