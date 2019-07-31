@@ -35,7 +35,7 @@ export default class Contact extends Component {
             };
 
             event.target.reset();
-            this.handleShowToast();
+            this.captcha.reset();
 
             axios.request({
                 method: "post",
@@ -45,6 +45,7 @@ export default class Contact extends Component {
                 if (res.status !== 200) {
                     throw new Error("Error Uploading");
                 }
+                this.handleShowToast();
             }).catch(error => {
                 console.log(error);
             });
@@ -79,6 +80,7 @@ export default class Contact extends Component {
                         className="recaptcha"
                         sitekey="6LdL968UAAAAAOewuSqme4aosvcbhgZbmH-nw5-X"
                         onChange={this.onCaptchaChange}
+                        ref={(r) => this.captcha = r}
                     />
 
                     <button className="contact_button" type="submit">
