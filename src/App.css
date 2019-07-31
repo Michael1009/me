@@ -32,9 +32,9 @@ html {
 }
 
 .sidebar {
-  width: 20%;
+  width: 20vw;
   height: 100vh;
-  background: #F8F9FA;
+  background:#eeeeee;
   padding-top: 16px;
   text-align: center;
   padding-right: 8px;
