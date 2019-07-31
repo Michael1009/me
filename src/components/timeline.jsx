@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./css/timeline.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Slide from "react-reveal/Slide";
 
 import ng_logo from '../images/ng_logo.jpg';
@@ -17,13 +16,10 @@ class Timeline extends Component {
           <ul className="timeline">
             <Slide left>
               <li>
-                <div className="timeline-badge blue">
-                  <FontAwesomeIcon icon="code" />
-                </div>
+                <img className="timeline-badge logo" src={ng_logo} alt="logo" />
                 <div className="timeline-panel">
 
                   <div className="heading-container">
-                    <img className="timeline-logo" src={ng_logo} alt="logo" />
                     <div className="timeline-heading">
                       <h4 className="timeline-title">Northrop Grumman</h4>
                       <div className="timeline-subtitle">Software Development Intern</div>
@@ -42,12 +38,9 @@ class Timeline extends Component {
             </Slide>
             <Slide right>
               <li className="timeline-inverted">
-                <div className="timeline-badge green">
-                  <FontAwesomeIcon icon="cloud" />
-                </div>
+                <img className="timeline-badge logo" src={p3it_logo} alt="logo" />
                 <div className="timeline-panel">
                   <div className="heading-container">
-                    <img className="timeline-logo" src={p3it_logo} alt="logo" />
                     <div className="timeline-heading">
                       <h4 className="timeline-title">Plus3 IT</h4>
                       <div className="timeline-subtitle">Cloud Development Intern</div>
@@ -59,7 +52,7 @@ class Timeline extends Component {
                     <p>
                       Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
                     backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                                  Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                                                        Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>
@@ -67,12 +60,9 @@ class Timeline extends Component {
             </Slide>
             <Slide left>
               <li>
-                <div className="timeline-badge yellow">
-                  <FontAwesomeIcon icon="satellite" />
-                </div>
+                <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">
                   <div className="heading-container">
-                    <img className="timeline-logo" src={nga_logo} alt="logo" />
                     <div className="timeline-heading">
                       <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
                       <div className="timeline-subtitle">Data Science Intern</div>
@@ -91,13 +81,10 @@ class Timeline extends Component {
             </Slide>
             <Slide right>
               <li className="timeline-inverted">
-                <div className="timeline-badge orange">
-                  <FontAwesomeIcon icon="satellite" />
-                </div>
+                <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">
                   <div className="heading-container">
-                    <img className="timeline-logo" src={nga_logo} alt="logo" />
-                    <div className="timeline-heading">
+                    ]                    <div className="timeline-heading">
                       <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
                       <div className="timeline-subtitle">Software Development Intern</div>
                       <div className="timeline-date"><small className="text-muted">Summer 2017</small></div>
@@ -115,12 +102,9 @@ class Timeline extends Component {
 
             <Slide left>
               <li>
-                <div className="timeline-badge red">
-                  <FontAwesomeIcon icon="satellite" />
-                </div>
+                <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">
                   <div className="heading-container">
-                    <img className="timeline-logo" src={nga_logo} alt="logo" />
                     <div className="timeline-heading">
                       <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
                       <div className="timeline-subtitle">Software Development Intern</div>
@@ -142,13 +126,9 @@ class Timeline extends Component {
           <ul className="timeline">
             <Slide right>
               <li className="timeline-inverted">
-                <div className="timeline-badge blue">
-                  <FontAwesomeIcon icon="code" />
-                </div>
+                <img className="timeline-badge logo" src={ng_logo} alt="logo" />
                 <div className="timeline-panel">
-
                   <div className="heading-container">
-                    <img className="timeline-logo" src={ng_logo} alt="logo" />
                     <div className="timeline-heading">
                       <h4 className="timeline-title">Northrop Grumman</h4>
                       <div className="timeline-subtitle">Software Development Intern</div>
@@ -167,12 +147,9 @@ class Timeline extends Component {
             </Slide>
             <Slide right>
               <li className="timeline-inverted">
-                <div className="timeline-badge green">
-                  <FontAwesomeIcon icon="cloud" />
-                </div>
+                <img className="timeline-badge logo" src={p3it_logo} alt="logo" />
                 <div className="timeline-panel">
                   <div className="heading-container">
-                    <img className="timeline-logo" src={p3it_logo} alt="logo" />
                     <div className="timeline-heading">
                       <h4 className="timeline-title">Plus3 IT</h4>
                       <div className="timeline-subtitle">Cloud Development Intern</div>
@@ -184,7 +161,7 @@ class Timeline extends Component {
                     <p>
                       Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
                     backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                                  Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                                                        Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>
@@ -192,12 +169,9 @@ class Timeline extends Component {
             </Slide>
             <Slide right>
               <li className="timeline-inverted">
-                <div className="timeline-badge yellow">
-                  <FontAwesomeIcon icon="satellite" />
-                </div>
+                <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">
                   <div className="heading-container">
-                    <img className="timeline-logo" src={nga_logo} alt="logo" />
                     <div className="timeline-heading">
                       <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
                       <div className="timeline-subtitle">Data Science Intern</div>
@@ -216,12 +190,9 @@ class Timeline extends Component {
             </Slide>
             <Slide right>
               <li className="timeline-inverted">
-                <div className="timeline-badge orange">
-                  <FontAwesomeIcon icon="satellite" />
-                </div>
+                <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">
                   <div className="heading-container">
-                    <img className="timeline-logo" src={nga_logo} alt="logo" />
                     <div className="timeline-heading">
                       <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
                       <div className="timeline-subtitle">Software Development Intern</div>
@@ -240,12 +211,9 @@ class Timeline extends Component {
 
             <Slide right>
               <li className="timeline-inverted">
-                <div className="timeline-badge red">
-                  <FontAwesomeIcon icon="satellite" />
-                </div>
+                <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">
                   <div className="heading-container">
-                    <img className="timeline-logo" src={nga_logo} alt="logo" />
                     <div className="timeline-heading">
                       <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
                       <div className="timeline-subtitle">Software Development Intern</div>

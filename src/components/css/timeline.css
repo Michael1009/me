@@ -8,8 +8,8 @@
 
 .container {
     float: center;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 28px;
+    padding-right: 28px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -34,6 +34,7 @@
     position: relative;
 }
 
+/* Middle line */
 .timeline:before {
     top: 0;
     bottom: 0;
@@ -70,8 +71,9 @@
     clear: both;
 }
 
+/* Timeline Cards */
 .timeline>li>.timeline-panel {
-    width: 46%;
+    width: 45%;
     float: left;
     border: 1px solid #d4d4d4;
     border-radius: 2px;
@@ -106,17 +108,13 @@
 }
 
 .timeline>li>.timeline-badge {
-    color: #fff;
-    width: 50px;
-    height: 50px;
     line-height: 50px;
     font-size: 1.4em;
     text-align: center;
     position: absolute;
-    top: 16px;
-    left: 50%;
+    top: 6px;
+    left: 49%;
     margin-left: -25px;
-    background-color: #999999;
     z-index: 100;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
@@ -142,24 +140,14 @@
     right: auto;
 }
 
-.timeline-badge.blue {
-    background-color: #2196f3 !important;
-}
-
-.timeline-badge.green {
-    background-color: #00897b !important;
-}
-
-.timeline-badge.yellow {
-    background-color: #fdd835 !important;
-}
-
-.timeline-badge.orange {
-    background-color: #ffa000 !important;
-}
-
-.timeline-badge.red {
-    background-color: #d9534f !important;
+.timeline-badge.logo {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .timeline-heading {
