@@ -52,7 +52,7 @@ class Timeline extends Component {
                     <p>
                       Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
                     backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                                                        Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                                                          Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ class Timeline extends Component {
                 <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">
                   <div className="heading-container">
-                    ]                    <div className="timeline-heading">
+                    <div className="timeline-heading">
                       <h4 className="timeline-title-nga">National Geospatial-Intelligence Agency</h4>
                       <div className="timeline-subtitle">Software Development Intern</div>
                       <div className="timeline-date"><small className="text-muted">Summer 2017</small></div>
@@ -161,7 +161,7 @@ class Timeline extends Component {
                     <p>
                       Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
                     backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                                                        Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                                                          Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>
