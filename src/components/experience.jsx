@@ -21,7 +21,7 @@ class Experience extends Component {
           width="100vw" 
           version="1.1" 
           xmlns="http://www.w3.org/2000/svg" 
-          class="svgcolor-light" 
+          className="svgcolor-light" 
           style={{ background: "#eeeeee"}}>
           <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
         </svg>
@@ -31,7 +31,7 @@ class Experience extends Component {
           width="100vw" 
           version="1.1" 
           xmlns="http://www.w3.org/2000/svg" 
-          class="svgcolor-light" 
+          className="svgcolor-light" 
           style={{ background: "white"}}>
           <path d="M50 0 L0 100 L100 100 Z" fill="#eeeeee" stroke="#eeeeee"></path>
         </svg> */}
@@ -116,7 +116,7 @@ class Experience extends Component {
           width="100vw" 
           version="1.1" 
           xmlns="http://www.w3.org/2000/svg" 
-          class="svgcolor-light" 
+          className="svgcolor-light" 
           style={{ background: "white"}}>
           <path d="M0 0 L50 100 L100 0 Z" fill="#eeeeee" stroke="#eeeeee"></path>
         </svg> */}
@@ -126,7 +126,7 @@ class Experience extends Component {
           width="100vw" 
           version="1.1" 
           xmlns="http://www.w3.org/2000/svg" 
-          class="svgcolor-light" 
+          className="svgcolor-light" 
           style={{ background: "white"}}>
           <path d="M0 0 L50 100 L100 0 Z" fill="#eeeeee" stroke="#eeeeee"></path>
         </svg>
