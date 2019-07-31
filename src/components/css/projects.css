@@ -69,11 +69,14 @@
         width: 100%;
         text-align: left;
         height: 300;
-        padding-top: 0px;
-        padding-bottom: 32px;
-        padding-left: 32px;
-        padding-right: 32px;
         font-family: 'Roboto Slab', serif;
+    }
+
+    .projects-container {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
     }
 
     .project_card {
