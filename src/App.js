@@ -48,12 +48,15 @@ class App extends Component {
     this.experienceRef = React.createRef();
     this.timelineRef = React.createRef();
     this.projectsRef = React.createRef();
+    this.contactRef = React.createRef();
+
   }
 
   scrollToAboutRef = () => window.scrollTo(0, this.aboutRef.current.offsetTop);
   scrollToExperienceRef = () => window.scrollTo(0, this.experienceRef.current.offsetTop);
   scrollToTimelineRef = () => window.scrollTo(0, this.timelineRef.current.offsetTop);
   scrollToProjectsRef = () => window.scrollTo(0, this.projectsRef.current.offsetTop);
+  scrollToContactRef = () => window.scrollTo(0, this.contactRef.current.offsetTop);
 
 
   render() {
@@ -80,6 +83,9 @@ class App extends Component {
             </div>
             <div className="link">
               <button className="button_link" onClick={() => this.scrollToProjectsRef()}>Projects</button>
+            </div>
+            <div className="link">
+              <button className="button_link" onClick={() => this.scrollToContactRef()}>Contact</button>
             </div>
           </div>
 
@@ -184,7 +190,7 @@ class App extends Component {
         <div ref={this.projectsRef}>
           <Projects></Projects>
         </div>
-        <div>
+        <div ref={this.contactRef}>
           <Contact></Contact>
         </div>
         <div>
