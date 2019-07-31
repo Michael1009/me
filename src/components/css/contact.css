@@ -56,7 +56,15 @@
 .contact_button:hover {
     background-color: black;
     color: white;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+}
+
+.toast {
+    font-size: 12px !important;
+    margin: auto;
+    margin-top: 8px;
+    background-color: #4caf50 !important;
+    color: white;
 }
 
 @media screen and (max-width: 600px) {

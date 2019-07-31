@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Form from 'react-bootstrap/Form';
+import Toast from 'react-bootstrap/Toast'
 
 import axios from 'axios';
 import ReCAPTCHA from "react-google-recaptcha";
@@ -12,11 +13,13 @@ export default class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            captcha: ''
+            captcha: '',
+            showToast: false
         };
 
         this.onCaptchaChange = this.onCaptchaChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleShowToast = this.handleShowToast.bind(this);
     }
 
 
@@ -32,7 +35,8 @@ export default class Contact extends Component {
             };
 
             event.target.reset();
-            // Progress bar with axios
+            this.handleShowToast();
+
             axios.request({
                 method: "post",
                 url: "https://portfolio-email.herokuapp.com/email",
@@ -52,6 +56,10 @@ export default class Contact extends Component {
 
     onCaptchaChange(value) {
         this.setState({ captcha: value })
+    }
+
+    handleShowToast() {
+        this.setState({ showToast: true });
     }
 
     render() {
@@ -76,7 +84,15 @@ export default class Contact extends Component {
                     <button className="contact_button" type="submit">
                         Submit
                     </button>
+                    <Toast className="toast"
+                        show={this.state.showToast}
+                        onClose={() => this.setState({ showToast: false })}
+                        delay={3000}
+                        autohide>
+                        <Toast.Body>Sent email! Looking forward to talking :)</Toast.Body>
+                    </Toast>
                 </Form>
+
             </div>
         )
     }
