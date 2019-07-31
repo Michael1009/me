@@ -1,6 +1,7 @@
 .experience {
     width: 100%;
     text-align: left;
+    margin: auto;
     height: 300;
     padding-bottom: 32px;
     padding-left: 3vw;
@@ -24,57 +25,8 @@
 
 }
 
-.icon_blue {
-    color: #2196f3;
-    font-size: 18px;
-}
-
-.icon_blue:hover {
-    color: #90caf9;
-}
-
-.icon_yellow {
-    color: #fbc02d;
-    font-size: 18px;
-}
-
-.icon_yellow:hover {
-    color: #fdd835;
-}
-
-.icon_green {
-    color: #00897b;
-    font-size: 18px;
-}
-
-.icon_green:hover {
-    color: #4db6ac;
-}
-
-.card_deck {
-    width: 100%;
-}
-
-.card_1 {
-    background-color: #2196f3 !important;
-    color: white;
-    font-size: 20px;
-}
-
-.card_2 {
-    background-color: #fbc02d !important;
-    color: white;
-    font-size: 20px;
-}
-
-.card_3 {
-    background-color: #00897b !important;
-    color: white;
-    font-size: 20px;
-}
-
-.card {
-    width: 28vw !important;
+.card-img-top {
+    height: 230px;
 }
 
 @media screen and (max-width: 600px) {
@@ -108,8 +60,5 @@
         width: 100% !important;
     }
 
-    .react-reveal {
-        animation-delay: 0ms !important;
-    }
 
 }
