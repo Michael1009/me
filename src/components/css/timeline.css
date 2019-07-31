@@ -6,14 +6,14 @@
     display: display;
 }
 
-.container {
+.timeline-container {
     float: center;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 32px;
+    padding-right: 32px;
     font-family: 'Roboto Slab', serif;
 }
 
-.container .heading {
+.timeline-container .heading {
     letter-spacing: 5px;
     color: #78909c;
     font-size: 10px;
@@ -21,7 +21,7 @@
     padding-top: 70px;
 }
 
-.container .subheading {
+.timeline-container .subheading {
     letter-spacing: 5px;
     color: black;
     font-size: 20px;
@@ -209,11 +209,21 @@ h4 {
         display: none;
     }
 
-    .container {
+    .timeline-container {
         float: center;
         padding-left: 8px;
         padding-right: 8px;
         font-family: 'Roboto Slab', serif;
+    }
+
+    .timeline-container .heading {
+        padding-left: 16px;
+
+    }
+
+    .timeline-container .subheading {
+        padding-left: 16px;
+
     }
 
     .timeline {
