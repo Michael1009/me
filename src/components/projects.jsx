@@ -29,7 +29,7 @@ class Projects extends Component {
             <Card.Body>
               <Card.Title>SkillMatch</Card.Title>
               <Card.Text>
-                SkiMatch is a web application that allows UVA students and faculty to connect over shared skills,
+                SkillMatch is a web application that allows UVA students and faculty to connect over shared skills,
                 interests, experiences and expertise. Users can create profiles that list their relevant academic information
                 (i.e. major, past courses, UVA email, etc.) and skills, along with an explanation of why they are using the app
                 (i.e. to find/provide tutoring, form study groups, or find community members with similar hobbies and interests).

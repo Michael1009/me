@@ -1,11 +1,12 @@
 .projects {
     width: 100%;
     text-align: left;
-    padding-bottom: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 64px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 14vw;
+    padding-right: 14vw;
     font-family: 'Roboto Slab', serif;
+    background: #F8F9FA;
 }
 
 .projects .heading {

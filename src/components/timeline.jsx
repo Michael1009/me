@@ -29,8 +29,7 @@ class Timeline extends Component {
 
                   <div className="timeline-body">
                     <p>
-                      Developed a full stack web application using <b>React JS</b> and <b>Spring</b> to help a team automate a certain complex process.
-                    Also worked as a mobile application developer to help develop an <b>Android application</b>.
+                      Developed a full stack web application using <b>React JS</b> and <b>Express</b> to help a team automate their workflow.
                   </p>
                   </div>
                 </div>
