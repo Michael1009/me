@@ -45,9 +45,9 @@ class Experience extends Component {
             <Card.Body>
               <Card.Title>Web Development</Card.Title>
               <Card.Text>
-                My foundation in web development comes from working on various projects to develop web applications.
-                I have developed web applications using React JS, Angular, Spring, and Django and am comfortable learning new frameworks.
-                In addition to these, I have also integrated web applications with Microsoft Azure and Travis CI.
+                I have experience developing web applications using <strong>React JS</strong>, <strong>Express</strong>, <strong>Angular</strong>, <strong>Spring</strong>, 
+                and <strong>Django</strong> and am comfortable learning new frameworks.
+                In addition to these, I have also integrated web applications with <strong>Microsoft Azure</strong> and <strong>Travis CI</strong>.
                 </Card.Text>
               <Card.Link
                 className="cardlink"
@@ -70,7 +70,7 @@ class Experience extends Component {
               <Card.Text>
                 Over the years, I've come to learn that software development is so much more than coding.
                 My experience in the software development process comes from my personal experiences on software
-                development teams (mostly using Agile) and an Advanced Software Development course at UVA.
+                development teams that used Agile methodologies.
                 </Card.Text>
               <Card.Link
                 className="cardlink"

@@ -30,6 +30,7 @@ class Timeline extends Component {
                   <div className="timeline-body">
                     <p>
                       Developed a full stack web application using <b>React JS</b> and <b>Express</b> to help a team automate their workflow.
+                      Application dealt with authentication, SQL queries, and file upload/storage.
                   </p>
                   </div>
                 </div>
@@ -49,9 +50,9 @@ class Timeline extends Component {
 
                   <div className="timeline-body">
                     <p>
-                      Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
-                    backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                                                            Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                      Developed a full stack cloud application using <b>Angular</b> and <b>Spring</b>. 
+                      The web application was hosted through <b>Microsoft Azure</b> using App
+                      Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>
@@ -91,7 +92,7 @@ class Timeline extends Component {
                   </div>
                   <div className="timeline-body">
                     <p>
-                      Worked on a webpage development team to create a web application that would aid in streamlining a certain process.
+                      Worked on a webpage development team to create a web application that would aid in automating their work process.
                     The web application was developed in <b>React JS</b> and used <b>Flask</b> as the backend.
                   </p>
                   </div>
@@ -137,8 +138,8 @@ class Timeline extends Component {
 
                   <div className="timeline-body">
                     <p>
-                      Developed a full stack web application using <b>React JS</b> and <b>Spring</b> to help a team automate a certain complex process.
-                    Also worked as a mobile application developer to help develop an <b>Android application</b>.
+                    Developed a full stack web application using <b>React JS</b> and <b>Express</b> to help a team automate their workflow.
+                      Application dealt with authentication, SQL queries, and file upload/storage.
                   </p>
                   </div>
                 </div>
@@ -158,9 +159,9 @@ class Timeline extends Component {
 
                   <div className="timeline-body">
                     <p>
-                      Developed a full stack cloud application using <b>Angular</b> for the frontend and <b>Spring</b> for the
-                    backend to handle RESTful API calls. The web application was hosted through <b>Azure</b> using App
-                                                            Services and utilized both Azure Blob Storage and Azure SQL Servers.
+                    Developed a full stack cloud application using <b>Angular</b> and <b>Spring</b>. 
+                      The web application was hosted through <b>Microsoft Azure</b> using App
+                      Services and utilized both Azure Blob Storage and Azure SQL Servers.
                   </p>
                   </div>
                 </div>

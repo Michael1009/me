@@ -36,7 +36,9 @@ class About extends Component {
               <div className="description">
                 But outside of school and coding, I also enjoy traveling,
                 hiking, and landscape photography.
-                Check out my Flickr link (icon on the side) if you want to see more! :)
+                Check out my <a href="https://www.flickr.com/photos/michael9154/" target="_blank" rel="noopener noreferrer">
+                  Flickr
+                </a> if you want to see more! :)
               </div>
             </div>
           </Fade>

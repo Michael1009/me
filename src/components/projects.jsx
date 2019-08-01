@@ -81,9 +81,8 @@ class Projects extends Component {
               <Card.Body>
                 <Card.Title>Tearline</Card.Title>
                 <Card.Text>
-                  Created the Android Tearline Application for the National Geospatial-Intelligence Agency to promote the distribution of
-                  unclassified intelligence. The team that I was assigned to, Pathfinder, had the goal of disseminating analysis on open source intelligence
-                  and this application was one of the ways in how they did so.
+                  Created the Android Tearline Application for the National Geospatial-Intelligence Agency. This application is used to disseminate analysis on open source intelligence. 
+                  Check out the links below to view it on the Google Play or the App Store. 
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
