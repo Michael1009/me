@@ -14,7 +14,7 @@ class Timeline extends Component {
         <div className="subheading"> TIMELINE </div>
         <div className="desktop">
           <ul className="timeline">
-            <Slide left>
+            <Slide left duration={500}>
               <li>
                 <img className="timeline-badge logo" src={ng_logo} alt="logo" />
                 <div className="timeline-panel">
@@ -36,7 +36,7 @@ class Timeline extends Component {
                 </div>
               </li>
             </Slide>
-            <Slide right>
+            <Slide right  duration={500}>
               <li className="timeline-inverted">
                 <img className="timeline-badge logo" src={p3it_logo} alt="logo" />
                 <div className="timeline-panel">
@@ -58,7 +58,7 @@ class Timeline extends Component {
                 </div>
               </li>
             </Slide>
-            <Slide left>
+            <Slide left  duration={500}>
               <li>
                 <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">
@@ -79,7 +79,7 @@ class Timeline extends Component {
                 </div>
               </li>
             </Slide>
-            <Slide right>
+            <Slide right  duration={500}>
               <li className="timeline-inverted">
                 <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">
@@ -100,7 +100,7 @@ class Timeline extends Component {
               </li>
             </Slide>
 
-            <Slide left>
+            <Slide left duration={500}>
               <li>
                 <img className="timeline-badge logo" src={nga_logo} alt="logo" />
                 <div className="timeline-panel">

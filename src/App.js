@@ -7,6 +7,8 @@ import Introduction from "./components/introduction";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Flip from 'react-reveal/Flip';
+import Pulse from 'react-reveal/Pulse';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import {
@@ -67,7 +69,9 @@ class App extends Component {
 
         {/* Start SideBar code */}
         <div className="sidebar">
-          <div className="profilepic" />
+          <Pulse>
+            <div className="profilepic" />
+          </Pulse>
           <div className="heading">Michael Chang</div>
           <div className="subheading">B.S. Computer Science at UVA</div>
 
@@ -90,76 +94,97 @@ class App extends Component {
           </div>
 
           <div className="icons">
-            <div className="icon">
-              <OverlayTrigger
-                placement="right"
-                overlay={<Tooltip>Resume</Tooltip>}
-              >
-                <a href={Pdf} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon="file-alt" />
-                </a>
-              </OverlayTrigger>
-            </div>
-            <div className="icon">
-              <OverlayTrigger
-                placement="right"
-                overlay={<Tooltip>Email</Tooltip>}
-              >
-                <a href="mailto:myc6cp@virginia.edu" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon="envelope" />
-                </a>
-              </OverlayTrigger>
-            </div>
-            <div className="icon">
-              <OverlayTrigger
-                placement="right"
-                overlay={<Tooltip>LinkedIn</Tooltip>}
-              >
-                <a href="https://linkedin.com/in/mchang2017/" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={["fab", "linkedin"]} />
-                </a>
-              </OverlayTrigger>
-            </div>
-            <div className="icon">
-              <OverlayTrigger
-                placement="right"
-                overlay={<Tooltip>Github</Tooltip>}
-              >
-                <a href="https://github.com/Michael1009/" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={["fab", "github"]} />
-                </a>
-              </OverlayTrigger>
-            </div>
-            <div className="icon">
-              <OverlayTrigger
-                placement="right"
-                overlay={<Tooltip>Facebook</Tooltip>}
-              >
-                <a href="https://www.facebook.com/Michael9154/" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={["fab", "facebook"]} />
-                </a>
-              </OverlayTrigger>
-            </div>
-            <div className="icon">
-              <OverlayTrigger
-                placement="right"
-                overlay={<Tooltip>Instagram</Tooltip>}
-              >
-                <a href="https://www.instagram.com/michael9154" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={["fab", "instagram"]} />
-                </a>
-              </OverlayTrigger>
-            </div>
-            <div className="icon">
-              <OverlayTrigger
-                placement="right"
-                overlay={<Tooltip>Flickr</Tooltip>}
-              >
-                <a href="https://www.flickr.com/photos/michael9154/" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={["fab", "flickr"]} />
-                </a>
-              </OverlayTrigger>
-            </div>
+            <Flip left>
+              <div className="icon">
+                <OverlayTrigger
+                  placement="right"
+                  overlay={<Tooltip>Resume</Tooltip>}
+                >
+                  <a href={Pdf} target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon="file-alt" />
+                  </a>
+                </OverlayTrigger>
+              </div>
+            </Flip>
+            <Flip left delay={200}>
+              <div className="icon">
+                <OverlayTrigger
+                  placement="right"
+                  overlay={<Tooltip>Email</Tooltip>}
+                >
+                  <a href="mailto:myc6cp@virginia.edu" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon="envelope" />
+                  </a>
+                </OverlayTrigger>
+              </div>
+            </Flip>
+            <Flip left delay={400}>
+              <div className="icon">
+                <OverlayTrigger
+                  placement="right"
+                  overlay={<Tooltip>LinkedIn</Tooltip>}
+                >
+                  <a href="https://linkedin.com/in/mchang2017/" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={["fab", "linkedin"]} />
+                  </a>
+                </OverlayTrigger>
+              </div>
+            </Flip>
+            <Flip left delay={600}>
+              <div className="icon">
+                <OverlayTrigger
+                  placement="right"
+                  overlay={<Tooltip>Github</Tooltip>}
+                >
+                  <a href="https://github.com/Michael1009/" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={["fab", "github"]} />
+                  </a>
+                </OverlayTrigger>
+              </div>
+            </Flip>
+            <Flip left delay={800}>
+              <div className="icon">
+                <OverlayTrigger
+                  placement="right"
+                  overlay={<Tooltip>Facebook</Tooltip>}
+                >
+                  <a href="https://www.facebook.com/Michael9154/" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={["fab", "facebook"]} />
+                  </a>
+                </OverlayTrigger>
+              </div>
+            </Flip>
+            <Flip left delay={1000}>
+              <div className="icon">
+                <OverlayTrigger
+                  placement="right"
+                  overlay={<Tooltip>Instagram</Tooltip>}
+                >
+                  <a href="https://www.instagram.com/michael9154" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={["fab", "instagram"]} />
+                  </a>
+                </OverlayTrigger>
+              </div>
+            </Flip>
+            <Flip left delay={1200}>
+              <div className="icon">
+                <OverlayTrigger
+                  placement="right"
+                  overlay={<Tooltip>Flickr</Tooltip>}
+                >
+                  <a href="https://www.flickr.com/photos/michael9154/" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={["fab", "flickr"]} />
+                  </a>
+                </OverlayTrigger>
+              </div>
+            </Flip>
+
+
+
+
+
+
+
           </div>
           <div className="footer">
             <OverlayTrigger
