@@ -16,17 +16,17 @@ class Experience extends Component {
   render() {
     return (
       <div className="experience">
-         <svg preserveAspectRatio="none" 
-          viewBox="0 0 100 102" 
-          height="60" 
-          width="100vw" 
-          version="1.1" 
-          xmlns="http://www.w3.org/2000/svg" 
-          className="svgcolor-light" 
-          style={{ background: "#eeeeee"}}>
+        <svg preserveAspectRatio="none"
+          viewBox="0 0 100 102"
+          height="60"
+          width="100vw"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          className="svgcolor-light"
+          style={{ background: "#eeeeee" }}>
           <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
         </svg>
-       {/* <svg preserveAspectRatio="none" 
+        {/* <svg preserveAspectRatio="none" 
           viewBox="0 0 100 100" 
           height="100" 
           width="100vw" 
@@ -44,14 +44,14 @@ class Experience extends Component {
             <div className="subheading"> WHAT AM I GOOD AT? </div>
           </Fade>
 
-          <Fade duration={1200} delay={200}>
+          <Fade duration={1000} delay={100}>
             <CardDeck className="card_deck">
               <Card className="text-center">
                 <Card.Img variant="top" src={webDev} />
                 <Card.Body>
                   <Card.Title>Web Development</Card.Title>
                   <Card.Text>
-                    I have experience developing web applications using <strong>React JS</strong>, <strong>Express</strong>, <strong>Angular</strong>, <strong>Spring</strong>, 
+                    I have experience developing web applications using <strong>React JS</strong>, <strong>Express</strong>, <strong>Angular</strong>, <strong>Spring</strong>,
                     and <strong>Django</strong> and am comfortable learning new frameworks.
                     In addition to these, I have also integrated web applications with <strong>Microsoft Azure</strong> and <strong>Travis CI</strong>.
                     </Card.Text>
@@ -98,9 +98,9 @@ class Experience extends Component {
                 <Card.Body>
                   <Card.Title>Hiking/Photography</Card.Title>
                   <Card.Text>
-                    Outside of software development, one of my favorite things to do is go hiking 
-                    and take pictures along the way. I usually hike in Shenandoah National Park 
-                    with my favorite trail being Old Rag but my favorite place to hike has got to be 
+                    Outside of software development, one of my favorite things to do is go hiking
+                    and take pictures along the way. I usually hike in Shenandoah National Park
+                    with my favorite trail being Old Rag but my favorite place to hike has got to be
                     Banff National Park in Canada.
                     </Card.Text>
                   <Card.Link className="cardlink" href={Pdf} target="_blank">
@@ -117,9 +117,9 @@ class Experience extends Component {
 
           </Fade>
 
-          
+
         </div>
-        
+
         {/* <svg preserveAspectRatio="none" 
           viewBox="0 0 100 102" 
           height="100" 
@@ -130,14 +130,14 @@ class Experience extends Component {
           style={{ background: "white"}}>
           <path d="M0 0 L50 100 L100 0 Z" fill="#eeeeee" stroke="#eeeeee"></path>
         </svg> */}
-        <svg preserveAspectRatio="none" 
-          viewBox="0 0 100 102" 
-          height="60" 
-          width="100vw" 
-          version="1.1" 
-          xmlns="http://www.w3.org/2000/svg" 
-          className="svgcolor-light" 
-          style={{ background: "white"}}>
+        <svg preserveAspectRatio="none"
+          viewBox="0 0 100 102"
+          height="60"
+          width="100vw"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          className="svgcolor-light"
+          style={{ background: "white" }}>
           <path d="M0 0 L50 100 L100 0 Z" fill="#eeeeee" stroke="#eeeeee"></path>
         </svg>
       </div >

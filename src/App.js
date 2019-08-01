@@ -28,7 +28,7 @@ import {
   faUsers,
   faSatellite,
   faCloud,
-  faPhone
+  faPhoneAlt
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Pdf from "./resume/Resume_1Page_Michael_Chang.pdf";
@@ -40,7 +40,7 @@ import uva_logo from "./images/uva_logo.png"
 library.add(fab, faCheckSquare, faCoffee, faEnvelope,
   faHeart, faFileAlt, faLaptopCode, faMountain, faPlane,
   faDumbbell, faCameraRetro, faImages, faCode, faLightbulb,
-  faUsers, faSatellite, faCloud, faPhone)
+  faUsers, faSatellite, faCloud, faPhoneAlt)
 
 class App extends Component {
 
@@ -69,7 +69,7 @@ class App extends Component {
 
         {/* Start SideBar code */}
         <div className="sidebar">
-          <Pulse>
+          <Pulse duration={1500}>
             <div className="profilepic" />
           </Pulse>
           <div className="heading">Michael Chang</div>
@@ -178,13 +178,6 @@ class App extends Component {
                 </OverlayTrigger>
               </div>
             </Flip>
-
-
-
-
-
-
-
           </div>
           <div className="footer">
             <OverlayTrigger
@@ -197,7 +190,7 @@ class App extends Component {
             </OverlayTrigger>
 
             <div>
-              Made with <FontAwesomeIcon icon="heart" /> and <FontAwesomeIcon icon="coffee" />
+              Made with <FontAwesomeIcon className="heart-icon" icon="heart" /> and <FontAwesomeIcon className="coffee-icon" icon="coffee" />
             </div>
           </div>
         </div>
