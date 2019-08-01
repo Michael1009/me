@@ -10,8 +10,8 @@
     float: center;
     padding-top: 48px;
     padding-bottom: 48px;
-    padding-left: 14vw;
-    padding-right: 14vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -74,7 +74,7 @@
 
 /* Timeline Cards */
 .timeline>li>.timeline-panel {
-    width: 45%;
+    width: 44%;
     float: left;
     border: 1px solid #d4d4d4;
     border-radius: 2px;
@@ -82,7 +82,8 @@
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    transition: transform .3s; /* Animation */
+    transition: transform .3s;
+    /* Animation */
 
 }
 
