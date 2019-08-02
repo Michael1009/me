@@ -109,7 +109,7 @@ html {
 .sidebar>.footer>a>img {
   width: 40px;
   height: 26px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .heart-icon {
@@ -125,7 +125,7 @@ html {
 }
 
 .coffee-icon:hover {
-  color: brown;
+  color: #a98274;
 }
 
 @media screen and (max-width: 600px) {
